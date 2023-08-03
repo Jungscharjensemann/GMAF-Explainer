@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>0660.png</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/8abb3260-b912-44e9-ae73-b1eb9ee65bba.png</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>0660.png</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/8abb3260-b912-44e9-ae73-b1eb9ee65bba.png</rdfs:label>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

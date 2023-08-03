@@ -1,0 +1,1244 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  <owl:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  <owl:DatatypeProperty rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#depicts">
+	<rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Root-Asset"/>
+	<rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Root-Asset">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </owl:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Root-Image">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>  
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Cloud">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q104604170"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Adaptation"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Dog_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Terrestrial_animal"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horizon"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plucked_String_instruments"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Dog"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plant"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/a"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_5">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q17545826"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tree"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Eiffel_Tower"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Automotive_lighting"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/The_Bund"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tints_and_shades"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Automotive_design">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q108278908"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Human_body">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1072278"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#OJAKEO">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/OJAKEO"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/O"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Pudong_Skyline">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Pudong_Skyline"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/HASTATI"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_6">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q105007234"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Mountain_Warehouse"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#MMFG"/>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Plant_community">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1418712"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Liver">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1072420"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#t...">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q4299993"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#TrocadÃ©ro_Gardens">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/TrocadÃ©ro_Gardens"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Horse_1">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Lake">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q106512354"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/a_pixers"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Leg">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q106274"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tire"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_3">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q105005949"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tire"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sorrel"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Water">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q124714"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Bank"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/OJAKEO"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_3"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#a_pixers">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/a_pixers"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/TrocadÃ©ro_Gardens"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/AW"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Plant">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q105381859"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_4">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q105078656"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plant_community"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Liver"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Fawn">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q103912797"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Dog_breed"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Cloud"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/JAKED"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Liver"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plucked_String_instruments"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Cloud"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_1">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q105086504"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Musical_instrument">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q102413357"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Landscape">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q106767088"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Cityscape"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Sorrel">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100773445"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Locking_hubs"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Water"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Landscape"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plant_community"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Hood"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Mountain_Warehouse">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q6925414"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Cloud"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Automotive_design"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Guitar_1">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_2"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Horse">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q136"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Landscape"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Water"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#White">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q184"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plant"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_2">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q103964752"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Beach">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q101138871"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Kit_car">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100918832"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Natural_landscape"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#AW_OJAKEO">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/AW_OJAKEO"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#a">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q101395"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Land_vehicle"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Lake"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/AW_OJAKEO"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tower"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Skyscraper">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q103967460"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Ecoregion"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Dog_breed">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100399982"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Face"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Person"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Electronic_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Dog">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q144"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Automotive_tire">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q169545"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Automotive_lighting">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q56695694"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Music"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Landscape"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/t..._O_JAKED"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plant"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/t..."/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Fawn"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plucked_String_instruments"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Person">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q5"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Horizon">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100355241"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Carnivore"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_3"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Symmetry">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q103969219"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Lake"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Tints_and_shades">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tints_and_shades"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Automotive_tire"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plucked_String_instruments"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Dusk"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Black"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Waterway"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Water"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#HASTATI">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q14831926"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Grassland"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Land_vehicle">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q107194299"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tower_block"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/a_pixers"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Guitar">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1028626"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/HAS"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Plucked_String_instruments">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Plucked_String_instruments"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sorrel"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/pixers"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#String_instrument">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q13138067"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#O">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q204"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#pixers">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/pixers"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#JAKED">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q12767761"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Blue"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Automotive_design"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Vehicle"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_2"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Music"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Car_4">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_4"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Eiffel_Tower">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q243"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#People_on_beach">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/People_on_beach"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Skyscraper"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Locking_hubs">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1393844"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Animal">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q107468438"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_4"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sorrel"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Carnivore">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1194816"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Pudong_Skyline"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Annotation_Anchor"/>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Liver"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Dusk">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100374528"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/White"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Tire">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1061463"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Terrestrial_animal">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q3248864"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/White"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Car">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1197355"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#HAS">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q4"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_5"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#String_instrument_accessory">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q104640533"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Cloud"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Natural_landscape"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Kit_car"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Sky">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q10372348"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Music">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q104189140"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Symmetry"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Animal"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Tower">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q137"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Sky"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Electronic_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Face">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100323135"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Musical_instrument_accessory">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Musical_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Hood">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q103929005"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Hood"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/People_on_beach"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Vehicle"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_6"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Electronic_instrument">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q101967766"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#The_Bund">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100366526"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Automotive_tire"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Natural_landscape">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q10594991"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Ecoregion">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q10912265"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Car_3">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q104385953"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Vehicle">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q103971961"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_7"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Wheel">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q107381132"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Grey"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Wheel_3">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_3"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#t..._O_JAKED">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/t..._O_JAKED"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Blue">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q101062011"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Adaptation">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q109140668"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Horse_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Guitar_accessory">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/HAS"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Grassland">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1006733"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_4"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Human_body"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Tower"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Building_7">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q17550319"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Bank">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q107138884"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Grey">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q104679858"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Cityscape">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q106692911"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Wheel_2">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q7991999"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Tower_block">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q107464815"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Tree">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q100937256"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Fawn"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#AW">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q1015565"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/a"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Leg"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Building_2"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Beach"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Waterway">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q102104616"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Guitar_1"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument_accessory"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/The_Bund"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Dog_1">
+    <rdfs:isDefinedBy rdf:resource="http://www.wikidata.org/entity/Q29683113"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Car_3"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Asset"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/pixers"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/String_instrument"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class>
+    <rdfs:domain rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Root-Image"/>
+    <rdfs:range rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/HASTATI"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Relationship"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Wheel_1">
+    <rdfs:isDefinedBy rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/Wheel_1"/>
+    <rdfs:subClassOf rdf:resource="file:///C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/#Node"/>
+  </rdfs:Class>
+</rdf:RDF>

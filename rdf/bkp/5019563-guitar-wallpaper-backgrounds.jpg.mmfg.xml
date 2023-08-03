@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>5019563-guitar-wallpaper-backgrounds.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/2bae693f-be15-4840-9b06-3ba1030aa590.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_3921728926132525665.jpg</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="HASTATI">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HASTATI"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="HASTATI">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HASTATI"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Musical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Plucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plucked_string_instruments"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Musical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Grey">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grey"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Music">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Music"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="HAS">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HAS"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="HAS">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HAS"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Musical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="White">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/White"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Musical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Plucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plucked_string_instruments"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Electronic_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Electronic_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Musical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="String_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Musical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_accessory"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Plucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plucked_string_instruments"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Music">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Music"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Electronic_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Electronic_instrument"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Guitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#HASTATI"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#HASTATI"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plucked_string_instruments"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Grey"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Music"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#HAS"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#HAS"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#White"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plucked_string_instruments"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Electronic_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_1"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plucked_string_instruments"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Music"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Electronic_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_1"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#White"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Black"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Musical_instrument_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_accessory"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#String_instrument"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plucked_string_instruments"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Guitar_1"/>
+                    
+        <rdfs:domain rdf:resource="#Guitar_1"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

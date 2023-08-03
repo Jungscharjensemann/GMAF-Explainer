@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>uan5uqiy4ffduiekfgak.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/5abb8a45-ada0-4442-9fbd-b32c4beca5ef.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_2400240608324096400.jpg</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Water">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Water"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Skyscraper">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Skyscraper"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Blue">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Blue"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Tower">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Tower"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Tower_block">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Tower_block"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dusk">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dusk"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Lake">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Lake"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cityscape">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cityscape"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="The_Bund">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/The_Bund"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="The_Bund">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/The_Bund"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Pudong_Skyline">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Pudong_Skyline"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_2">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_3">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_3"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_4">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_5">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_6">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Building_7">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Building_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Water"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Skyscraper"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sky"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Blue"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Tower"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Tower_block"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Dusk"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Lake"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cityscape"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#The_Bund"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#The_Bund"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Pudong_Skyline"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Building_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

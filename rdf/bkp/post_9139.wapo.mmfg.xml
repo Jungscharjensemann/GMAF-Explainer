@@ -1,0 +1,3815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>post_9139.wapo</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/aa011d6b-af94-461c-ae36-c954a10f6e0b.wapo</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_11803700646807902798.wapo</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>post_9139.wapo</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/aa011d6b-af94-461c-ae36-c954a10f6e0b.wapo</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_11803700646807902798.wapo</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="date">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/date"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="null">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/null"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="type">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/type"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="article">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/article"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="author">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/author"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Steven_Mufson">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Steven_Mufson"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="source">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/source"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="The_Washington_Post">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/The_Washington_Post"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Title">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="doubles">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/doubles"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="doubles">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/doubles"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="doubles">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/doubles"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_2">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="doubles">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/doubles"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="doubles">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/doubles"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="doubles">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/doubles"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_3">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_3"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_4">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_5">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="energy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/energy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="energy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/energy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="industry">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/industry"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="annual">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/annual"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="megawatt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/megawatt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="photovoltaic">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/photovoltaic"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="according">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/according"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="new">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/new"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_6">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="S">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/S"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="S">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/S"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_7">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="report">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/report"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="report">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/report"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_8">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="record">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/record"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="enough">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/enough"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="home">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/home"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="enough">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/enough"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="home">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/home"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="enough">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/enough"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="enough">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/enough"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="home">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/home"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="home">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/home"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="home">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/home"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="home">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/home"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="mark">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/mark"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="first">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/first"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="time">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/time"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="more">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/more"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_9">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="S">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/S"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="S">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/S"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_10">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="market">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/market"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="market">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/market"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="one">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/one"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="single">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/single"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="topped">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/topped"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="one">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/one"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="one">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/one"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="single">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/single"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="topped">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/topped"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="single">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/single"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="single">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/single"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="topped">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/topped"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="topped">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/topped"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_11">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_11"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="estimate">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/estimate"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="estimate">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/estimate"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="U">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/U"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_12">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_12"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="S">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/S"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="S">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/S"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_13">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="value">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/value"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="value">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/value"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="total">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/total"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="surpass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/surpass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_14">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="billion">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/billion"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="billion">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/billion"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_15">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Rhone">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Rhone"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Rhone">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Rhone"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="president">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/president"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="construction">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/construction"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="president">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/president"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="president">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/president"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="construction">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/construction"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="capacity">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/capacity"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="construction">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/construction"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="construction">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/construction"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="construction">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/construction"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="power">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/power"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="option">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/option"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="independent">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/independent"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="solar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/solar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_16">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#date"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#type"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#author"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#source"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Title"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_8"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_9"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_10"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_11"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_12"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_13"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_14"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_15"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_16"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#date"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#type"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#author"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#source"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Title"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_8"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_9"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_10"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_11"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_12"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_13"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_14"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_15"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_16"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#null"/>
+                    
+        <rdfs:domain rdf:resource="#date"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#article"/>
+                    
+        <rdfs:domain rdf:resource="#type"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Steven_Mufson"/>
+                    
+        <rdfs:domain rdf:resource="#author"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#The_Washington_Post"/>
+                    
+        <rdfs:domain rdf:resource="#source"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#industry"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#doubles"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#capacity"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#industry"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#doubles"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#capacity"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#energy"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#industry"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#record"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#megawatt"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#capacity"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#double"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#annual"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#record"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#megawatt"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#set"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#U"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#S"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#report"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#record"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#level"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#enough"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#power"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#home"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#mark"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#first"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#time"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#U"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#S"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#market"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#one"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#single"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#year"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#estimate"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_11"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#U"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_11"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#S"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_12"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#value"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#billion"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Rhone"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#president"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#capacity"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#construction"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#power"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#are"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#option"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

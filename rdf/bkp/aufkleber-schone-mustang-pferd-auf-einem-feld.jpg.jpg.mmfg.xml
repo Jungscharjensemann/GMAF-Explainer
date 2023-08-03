@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>aufkleber-schone-mustang-pferd-auf-einem-feld.jpg.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/3cd301a4-642a-48c6-8dc7-9ee142e1e4f3.jpg</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>aufkleber-schone-mustang-pferd-auf-einem-feld.jpg.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/3cd301a4-642a-48c6-8dc7-9ee142e1e4f3.jpg</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="a_pixers">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/a_pixers"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="a">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/a"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pixers">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pixers"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Horse">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Horse"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Plant">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cloud">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cloud"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Plant_community">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant_community"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Natural_landscape">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Natural_landscape"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Liver">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Liver"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Fawn">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fawn"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sorrel">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sorrel"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Landscape">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Landscape"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Horse_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Horse">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Horse"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Plant">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Ecoregion">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Ecoregion"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Liver">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Liver"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Grassland">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grassland"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Terrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Terrestrial_animal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Adaptation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Adaptation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Landscape">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Landscape"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sorrel">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sorrel"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Animal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Animal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#a_pixers"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#a"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#pixers"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Horse"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sky"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plant"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cloud"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plant_community"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Natural_landscape"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Liver"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Fawn"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sorrel"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Landscape"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Horse_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#a_pixers"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#a"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#pixers"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Horse"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sky"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plant"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cloud"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plant_community"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Natural_landscape"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Liver"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Fawn"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sorrel"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Landscape"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Horse_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Horse"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sky"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Plant"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Ecoregion"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Liver"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Grassland"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Terrestrial_animal"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Adaptation"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Landscape"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sorrel"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Animal"/>
+                    
+        <rdfs:domain rdf:resource="#Horse_1"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

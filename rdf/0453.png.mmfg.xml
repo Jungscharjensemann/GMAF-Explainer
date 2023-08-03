@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:local="http://local/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="file:/C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/">
+            
+			
+    <owl:Ontology rdf:ID="0453.png"/>
+            
+    <owl:Class rdf:about="http://local/MMFG"/>
+            
+    <owl:Class rdf:about="http://local/Node"/>
+            
+    <owl:Class rdf:about="http://local/Annotation_Anchor"/>
+            
+    <owl:Class rdf:about="http://local/Relationship"/>
+    			
+    <owl:Class rdf:about="http://local/Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>0453.png</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/411e22b4-a3d2-4a6c-af28-d7c573796dc4.png</rdfs:label>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>0453.png</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/411e22b4-a3d2-4a6c-af28-d7c573796dc4.png</rdfs:label>
+                
+    </owl:Class>
+    		
+    <owl:DatatypeProperty rdf:about="http://local/contains">
+                 
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+        
+        <rdfs:domain rdf:resource="http://local/Root-Asset"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Asset"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Asset"/>
+                
+    </owl:DatatypeProperty>
+    
+</rdf:RDF>

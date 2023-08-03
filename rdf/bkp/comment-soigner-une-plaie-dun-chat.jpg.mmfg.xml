@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>comment-soigner-une-plaie-dun-chat.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/8c2b317c-6b18-4835-9b16-754da6ba3c9a.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_43121017498712968.jpg</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cat">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Carnivore">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Carnivore"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Felidae">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Felidae"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Whiskers">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Whiskers"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Small_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Small_to_medium-sized_cats"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Snout">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Snout"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Fur">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fur"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Paw">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Paw"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Domestic_short-haired_cat">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Domestic_short-haired_cat"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Claw">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Claw"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cat_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cat">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Felidae">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Felidae"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Carnivore">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Carnivore"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Small_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Small_to_medium-sized_cats"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Whiskers">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Whiskers"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Snout">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Snout"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Paw">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Paw"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Fur">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fur"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Domestic_short-haired_cat">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Domestic_short-haired_cat"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Claw">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Claw"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cat_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cat"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Carnivore"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Felidae"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Whiskers"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Small_to_medium-sized_cats"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Snout"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Fur"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Paw"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Domestic_short-haired_cat"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Claw"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cat_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cat"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Felidae"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Carnivore"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Small_to_medium-sized_cats"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Whiskers"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Snout"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Paw"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Fur"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Domestic_short-haired_cat"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Claw"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cat_1"/>
+                    
+        <rdfs:domain rdf:resource="#Cat_1"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

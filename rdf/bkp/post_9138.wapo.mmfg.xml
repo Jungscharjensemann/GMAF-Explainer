@@ -1,0 +1,6279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>post_9138.wapo</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/10812aa9-0cb1-4f29-b1f4-102146007abd.wapo</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_18406248606613375829.wapo</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>post_9138.wapo</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/10812aa9-0cb1-4f29-b1f4-102146007abd.wapo</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_18406248606613375829.wapo</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="date">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/date"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="null">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/null"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="type">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/type"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="article">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/article"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="author">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/author"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="source">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/source"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="The_Washington_Post">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/The_Washington_Post"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Title">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="support">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/support"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="support">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/support"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="boost">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/boost"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="boost">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/boost"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="boost">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/boost"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="D">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/D"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="D">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/D"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_2">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="C">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/C"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="C">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/C"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_3">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_3"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_4">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="support">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/support"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="support">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/support"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="boost">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/boost"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="boost">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/boost"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="boost">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/boost"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_5">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_6">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="government">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/government"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="can">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/can"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="worker">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/worker"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="government">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/government"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="can">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/can"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="worker">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/worker"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="government">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/government"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="government">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/government"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="can">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/can"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="worker">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/worker"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="can">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/can"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="can">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/can"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="worker">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/worker"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="worker">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/worker"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="worker">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/worker"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="double">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/double"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="provision">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/provision"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pay">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pay"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="federal">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/federal"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="near">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/near"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_7">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="senate">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/senate"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="senate">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/senate"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_8">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_9">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wednesday">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wednesday"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wednesday">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wednesday"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wednesday">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wednesday"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wednesday">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wednesday"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_10">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="series">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/series"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="law">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/law"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="series">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/series"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="law">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/law"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="series">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/series"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="series">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/series"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="law">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/law"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="law">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/law"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="law">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/law"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="under">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/under"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_11">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_11"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_12">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_12"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_13">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="extension">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/extension"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="extension">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/extension"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="end">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/end"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="last">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/last"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="pass">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pass"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="end">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/end"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="last">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/last"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="end">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/end"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="end">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/end"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="last">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/last"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="last">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/last"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="last">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/last"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="amount">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/amount"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="level">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/level"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="revert">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/revert"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="not">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/not"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_14">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="parking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/parking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="lot">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/lot"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="take">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/take"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="parking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/parking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="parking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/parking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="lot">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/lot"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="take">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/take"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="commuter">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/commuter"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="lot">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/lot"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="take">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/take"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="lot">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/lot"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="lot">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/lot"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="take">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/take"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="take">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/take"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="take">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/take"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="rose">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/rose"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="inflation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/inflation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="adjustment">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/adjustment"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_15">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="language">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/language"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="language">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/language"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="move">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/move"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="move">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/move"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="move">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/move"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="set">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/set"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="maximum">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/maximum"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="subsidy">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/subsidy"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="month">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/month"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="calendar">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/calendar"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="start">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/start"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="year">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/year"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="retroactive">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/retroactive"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_16">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="benefit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/benefit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="benefit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/benefit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="will">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/will"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="working">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/working"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="people">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/people"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="will">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/will"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="will">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/will"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="working">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/working"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="people">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/people"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="working">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/working"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="working">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/working"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="people">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/people"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="people">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/people"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="people">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/people"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="like">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/like"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="use">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/use"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="public">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/public"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transportation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transportation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="are">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/are"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="seeking">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/seeking"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="relief">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/relief"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="M">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/M"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="transit">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/transit"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="prove">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/prove"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="incredibly">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/incredibly"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="important">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/important"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="all">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/all"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="critical">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/critical"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_17">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_17"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="president">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/president"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="president">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/president"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Nation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Nation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Treasury">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Treasury"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Union">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Union"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="statement">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/statement"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Nation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Nation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Nation">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Nation"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Treasury">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Treasury"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Union">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Union"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="statement">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/statement"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Treasury">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Treasury"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Treasury">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Treasury"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Union">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Union"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="statement">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/statement"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Union">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Union"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Union">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Union"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="statement">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/statement"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="statement">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/statement"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="statement">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/statement"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#date"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#type"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#author"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#source"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Title"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_8"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_9"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_10"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_11"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_12"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_13"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_14"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_15"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_16"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_17"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#date"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#type"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#author"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#source"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Title"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_8"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_9"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_10"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_11"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_12"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_13"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_14"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_15"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_16"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_17"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#null"/>
+                    
+        <rdfs:domain rdf:resource="#date"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#article"/>
+                    
+        <rdfs:domain rdf:resource="#type"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#"/>
+                    
+        <rdfs:domain rdf:resource="#author"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#The_Washington_Post"/>
+                    
+        <rdfs:domain rdf:resource="#source"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#support"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#boost"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#commuter"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#subsidy"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#D"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#C"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#support"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#boost"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#commuter"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#subsidy"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#maximum"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#subsidy"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#government"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#can"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#worker"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#use"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#public"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#double"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#month"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#provision"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#senate"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#transportation"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#pass"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Wednesday"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#maximum"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#month"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#series"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#law"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#extension"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#pass"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#end"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#last"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#year"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#amount"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#level"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#month"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#subsidy"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#parking"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#commuter"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#lot"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#take"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#public"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#transportation"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#rose"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#month"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#inflation"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#adjustment"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#language"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#move"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#set"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#maximum"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#subsidy"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#month"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#calendar"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#year"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#start"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#year"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#benefit"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#will"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#working"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#people"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#use"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#like"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#use"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#public"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#transportation"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#are"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#seeking"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#relief"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#M"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#president"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_17"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Nation"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_17"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Treasury"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_17"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Union"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_17"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#statement"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_17"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

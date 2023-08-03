@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>4e450ebb1206cf403c0b33d58598feacv1_max_755x424_b3535db83dc50e27c1bb1392364c95a2.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/be68594d-cdba-485b-a157-9725b3bc9ed6.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_6786252063107893396.jpg</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Face">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Face"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Water">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Water"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cloud">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cloud"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dog">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dog"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="People_on_beach">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/People_on_beach"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Leg">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Leg"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dog_breed">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dog_breed"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Carnivore">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Carnivore"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Human_body">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Human_body"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Beach">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Beach"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dog_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dog_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Person">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Person"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Face"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Water"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cloud"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sky"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Dog"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#People_on_beach"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Leg"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Dog_breed"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Carnivore"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Human_body"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Beach"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Dog_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Person"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Image"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

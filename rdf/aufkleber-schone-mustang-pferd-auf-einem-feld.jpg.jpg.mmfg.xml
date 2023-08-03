@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:local="http://local/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="file:/C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/">
+            
+			
+    <owl:Ontology rdf:ID="aufkleber-schone-mustang-pferd-auf-einem-feld.jpg.jpg"/>
+            
+    <owl:Class rdf:about="http://local/MMFG"/>
+            
+    <owl:Class rdf:about="http://local/Node"/>
+            
+    <owl:Class rdf:about="http://local/Annotation_Anchor"/>
+            
+    <owl:Class rdf:about="http://local/Relationship"/>
+    			
+    <owl:Class rdf:about="http://local/Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>aufkleber-schone-mustang-pferd-auf-einem-feld.jpg.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/3cd301a4-642a-48c6-8dc7-9ee142e1e4f3.jpg</rdfs:label>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>aufkleber-schone-mustang-pferd-auf-einem-feld.jpg.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/3cd301a4-642a-48c6-8dc7-9ee142e1e4f3.jpg</rdfs:label>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/a_pixers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/a_pixers"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/a">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/a"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/pixers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/pixers"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Horse">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Horse"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Sky">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plant">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cloud">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cloud"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plant_community">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant_community"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Natural_landscape">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Natural_landscape"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Liver">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Liver"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Fawn">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fawn"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Sorrel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sorrel"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Landscape">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Landscape"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Horse_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Horse_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Horse">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Horse"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Sky">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plant">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Ecoregion">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Ecoregion"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Liver">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Liver"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Grassland">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grassland"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Terrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Terrestrial_animal"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Adaptation">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Adaptation"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Landscape">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Landscape"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Sorrel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sorrel"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Animal"/>
+                
+    </owl:Class>
+    		
+    <owl:DatatypeProperty rdf:about="http://local/contains">
+                 
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+        
+        <rdfs:domain rdf:resource="http://local/Root-Asset"/>
+        
+        <rdfs:range rdf:resource="http://local/a_pixers"/>
+        <rdfs:range rdf:resource="http://local/a"/>
+        <rdfs:range rdf:resource="http://local/pixers"/>
+        <rdfs:range rdf:resource="http://local/Horse"/>
+        <rdfs:range rdf:resource="http://local/Sky"/>
+        <rdfs:range rdf:resource="http://local/Plant"/>
+        <rdfs:range rdf:resource="http://local/Cloud"/>
+        <rdfs:range rdf:resource="http://local/Plant_community"/>
+        <rdfs:range rdf:resource="http://local/Natural_landscape"/>
+        <rdfs:range rdf:resource="http://local/Liver"/>
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+        <rdfs:range rdf:resource="http://local/Sorrel"/>
+        <rdfs:range rdf:resource="http://local/Landscape"/>
+        <rdfs:range rdf:resource="http://local/Horse_1"/>
+        <rdfs:range rdf:resource="http://local/Horse"/>
+        <rdfs:range rdf:resource="http://local/Sky"/>
+        <rdfs:range rdf:resource="http://local/Plant"/>
+        <rdfs:range rdf:resource="http://local/Ecoregion"/>
+        <rdfs:range rdf:resource="http://local/Liver"/>
+        <rdfs:range rdf:resource="http://local/Grassland"/>
+        <rdfs:range rdf:resource="http://local/Terrestrial_animal"/>
+        <rdfs:range rdf:resource="http://local/Adaptation"/>
+        <rdfs:range rdf:resource="http://local/Landscape"/>
+        <rdfs:range rdf:resource="http://local/Sorrel"/>
+        <rdfs:range rdf:resource="http://local/Animal"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Asset"/>
+                    
+        <rdfs:range rdf:resource="http://local/a_pixers"/>
+                    
+        <rdfs:range rdf:resource="http://local/a"/>
+                    
+        <rdfs:range rdf:resource="http://local/pixers"/>
+                    
+        <rdfs:range rdf:resource="http://local/Horse"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sky"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plant"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cloud"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plant_community"/>
+                    
+        <rdfs:range rdf:resource="http://local/Natural_landscape"/>
+                    
+        <rdfs:range rdf:resource="http://local/Liver"/>
+                    
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sorrel"/>
+                    
+        <rdfs:range rdf:resource="http://local/Landscape"/>
+                    
+        <rdfs:range rdf:resource="http://local/Horse_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Asset"/>
+                    
+        <rdfs:range rdf:resource="http://local/a_pixers"/>
+                    
+        <rdfs:range rdf:resource="http://local/a"/>
+                    
+        <rdfs:range rdf:resource="http://local/pixers"/>
+                    
+        <rdfs:range rdf:resource="http://local/Horse"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sky"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plant"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cloud"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plant_community"/>
+                    
+        <rdfs:range rdf:resource="http://local/Natural_landscape"/>
+                    
+        <rdfs:range rdf:resource="http://local/Liver"/>
+                    
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sorrel"/>
+                    
+        <rdfs:range rdf:resource="http://local/Landscape"/>
+                    
+        <rdfs:range rdf:resource="http://local/Horse_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToa_pixers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/a_pixers"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToa">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/a"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesTopixers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/pixers"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHorse">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Horse"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSky">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Sky"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlant">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plant"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCloud">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cloud"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlant_community">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plant_community"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToNatural_landscape">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Natural_landscape"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToLiver">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Liver"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFawn">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Fawn"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSorrel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Sorrel"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToLandscape">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Landscape"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHorse_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Horse_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Horse"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sky"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plant"/>
+                    
+        <rdfs:range rdf:resource="http://local/Ecoregion"/>
+                    
+        <rdfs:range rdf:resource="http://local/Liver"/>
+                    
+        <rdfs:range rdf:resource="http://local/Grassland"/>
+                    
+        <rdfs:range rdf:resource="http://local/Terrestrial_animal"/>
+                    
+        <rdfs:range rdf:resource="http://local/Adaptation"/>
+                    
+        <rdfs:range rdf:resource="http://local/Landscape"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sorrel"/>
+                    
+        <rdfs:range rdf:resource="http://local/Animal"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHorse">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Horse"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSky">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Sky"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlant">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plant"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToEcoregion">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Ecoregion"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToLiver">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Liver"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGrassland">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Grassland"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToTerrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Terrestrial_animal"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAdaptation">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Adaptation"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToLandscape">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Landscape"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSorrel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Sorrel"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAnimal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Animal"/>
+                
+    </owl:DatatypeProperty>
+    
+</rdf:RDF>

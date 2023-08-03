@@ -1,0 +1,4647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+            
+        
+    <rdfs:Class rdf:ID="MMFG"/>
+            
+    <rdfs:Class rdf:ID="Node"/>
+            
+    <rdfs:Class rdf:ID="Annotation_Anchor"/>
+            
+    <rdfs:Class rdf:ID="Relationship"/>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>post_9144.wapo</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/aea8d798-bbb0-4baf-835f-7e1a5e7164c2.wapo</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_9099876187709775325.wapo</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Root-Asset">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Asset"/>
+                    
+        <rdfs:label>post_9144.wapo</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/aea8d798-bbb0-4baf-835f-7e1a5e7164c2.wapo</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_9099876187709775325.wapo</rdfs:label>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="date">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/date"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="null">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/null"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="type">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/type"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="article">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/article"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="author">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/author"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="source">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/source"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="The_Washington_Post">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/The_Washington_Post"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Title">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="radio">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/radio"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="radio">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/radio"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="list">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/list"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="list">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/list"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="list">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/list"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_1">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_1"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_2">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="radio">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/radio"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="radio">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/radio"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="list">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/list"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="list">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/list"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="list">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/list"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="March">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/March"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_3">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_3"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_4">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_4"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_5">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_5"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_6">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_6"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_7">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="York">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/York"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="York">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/York"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_8">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Washington">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Washington"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Washington">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Washington"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_9">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_9"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_10">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_10"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_11">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_11"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cincinnati">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cincinnati"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Cincinnati">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cincinnati"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_12">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_12"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Angel">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Angel"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Angel">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Angel"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_13">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_13"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_14">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_14"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_15">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_15"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_16">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Seattle">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Seattle"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Seattle">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Seattle"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_17">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_17"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_18">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_18"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_19">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_19"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_20">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_20"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Washington">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Washington"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Washington">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Washington"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Orleans">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Orleans"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Orleans">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Orleans"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Orleans">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Orleans"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_21">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_21"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_22">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_22"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_23">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_23"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_24">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_24"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_25">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_25"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Pittsburgh">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Pittsburgh"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Pittsburgh">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Pittsburgh"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="York">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/York"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="York">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/York"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="York">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/York"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_26">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_26"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_27">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_27"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_28">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_28"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_29">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_29"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Murray">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Murray"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Murray">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Murray"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_30">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_30"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Colorado">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Colorado"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Colorado">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Colorado"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_31">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_31"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_32">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_32"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_33">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_33"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_34">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_34"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_35">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_35"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kansas">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kansas"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kansas">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kansas"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_36">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_36"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Mississippi">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mississippi"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Mississippi">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mississippi"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_37">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_37"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_38">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_38"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_39">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_39"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Louisville">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Louisville"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Louisville">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Louisville"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_40">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_40"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_41">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_41"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_42">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_42"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_43">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_43"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wisconsin">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wisconsin"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wisconsin">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wisconsin"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_44">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_44"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Montana">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Montana"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Montana">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Montana"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_45">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_45"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_46">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_46"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_47">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_47"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Marquette">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Marquette"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Marquette">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Marquette"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_48">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_48"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_49">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_49"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_50">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_50"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_51">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_51"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Syracuse">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Syracuse"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Syracuse">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Syracuse"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_52">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_52"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Asheville">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Asheville"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Asheville">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Asheville"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_53">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_53"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_54">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_54"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_55">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_55"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_56">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_56"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_57">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_57"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Mexico">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mexico"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Mexico">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mexico"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_58">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_58"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_59">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_59"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_60">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_60"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_61">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_61"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Vanderbilt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Vanderbilt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Vanderbilt">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Vanderbilt"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_62">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_62"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Harvard">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Harvard"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Harvard">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Harvard"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_63">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_63"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_64">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_64"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_65">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_65"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kentucky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kentucky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kentucky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kentucky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_66">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_66"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Western">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Western"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Western">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Western"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kentucky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kentucky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kentucky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kentucky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Kentucky">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kentucky"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_67">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_67"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_68">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_68"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_69">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_69"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wichita">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wichita"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Wichita">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wichita"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_70">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_70"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Virginia">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Virginia"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Virginia">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Virginia"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_71">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_71"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_72">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_72"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_73">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_73"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_74">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_74"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_75">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_75"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_76">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_76"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="West">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/West"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="West">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/West"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Virginia">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Virginia"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Virginia">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Virginia"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Virginia">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Virginia"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_77">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_77"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_78">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_78"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_79">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_79"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_80">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_80"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="South">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/South"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="South">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/South"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dakota">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dakota"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dakota">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dakota"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Dakota">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dakota"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_81">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_81"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_82">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_82"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_83">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_83"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Iowa">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Iowa"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Iowa">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Iowa"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_84">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_84"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Connecticut">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Connecticut"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Connecticut">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Connecticut"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_85">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_85"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_86">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_86"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_87">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_87"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Indiana">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Indiana"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Indiana">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Indiana"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_88">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_88"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Mexico">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mexico"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Mexico">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mexico"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="New">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/New"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_89">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_89"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_90">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_90"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_91">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_91"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_92">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_92"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_93">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_93"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_94">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_94"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Ohio">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Ohio"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Ohio">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Ohio"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_95">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_95"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_96">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_96"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="TNT">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/TNT"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_97">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_97"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_98">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_98"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_99">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_99"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_100">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_100"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Colorado">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Colorado"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Colorado">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Colorado"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_101">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_101"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_102">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_102"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_103">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_103"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_104">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_104"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_105">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_105"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_106">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_106"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class rdf:ID="Sentence_107">
+                    
+        <rdfs:subClassOf rdf:resource="#Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sentence_107"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#date"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#type"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#author"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#source"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Title"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_8"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_9"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_10"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_11"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_12"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_13"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_14"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_15"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_16"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_17"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_18"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_19"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_20"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_21"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_22"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_23"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_24"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_25"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_26"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_27"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_28"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_29"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_30"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_31"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_32"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_33"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_34"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_35"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_36"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_37"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_38"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_39"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_40"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_41"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_42"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_43"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_44"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_45"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_46"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_47"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_48"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_49"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_50"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_51"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_52"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_53"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_54"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_55"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_56"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_57"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_58"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_59"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_60"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_61"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_62"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_63"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_64"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_65"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_66"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_67"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_68"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_69"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_70"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_71"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_72"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_73"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_74"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_75"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_76"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_77"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_78"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_79"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_80"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_81"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_82"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_83"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_84"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_85"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_86"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_87"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_88"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_89"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_90"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_91"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_92"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_93"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_94"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_95"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_96"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_97"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_98"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_99"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_100"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_101"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_102"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_103"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_104"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_105"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_106"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_107"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#date"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#type"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#author"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#source"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Title"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_1"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_2"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_3"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_4"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_5"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_6"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_7"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_8"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_9"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_10"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_11"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_12"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_13"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_14"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_15"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_16"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_17"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_18"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_19"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_20"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_21"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_22"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_23"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_24"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_25"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_26"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_27"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_28"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_29"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_30"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_31"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_32"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_33"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_34"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_35"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_36"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_37"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_38"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_39"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_40"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_41"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_42"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_43"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_44"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_45"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_46"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_47"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_48"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_49"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_50"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_51"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_52"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_53"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_54"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_55"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_56"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_57"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_58"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_59"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_60"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_61"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_62"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_63"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_64"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_65"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_66"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_67"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_68"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_69"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_70"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_71"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_72"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_73"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_74"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_75"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_76"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_77"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_78"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_79"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_80"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_81"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_82"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_83"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_84"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_85"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_86"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_87"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_88"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_89"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_90"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_91"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_92"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_93"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_94"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_95"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_96"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_97"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_98"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_99"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_100"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_101"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_102"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_103"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_104"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_105"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_106"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Sentence_107"/>
+                    
+        <rdfs:domain rdf:resource="#Root-Asset"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#null"/>
+                    
+        <rdfs:domain rdf:resource="#date"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#article"/>
+                    
+        <rdfs:domain rdf:resource="#type"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#"/>
+                    
+        <rdfs:domain rdf:resource="#author"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#The_Washington_Post"/>
+                    
+        <rdfs:domain rdf:resource="#source"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#radio"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#list"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#March"/>
+                    
+        <rdfs:domain rdf:resource="#Title"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#radio"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#list"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#March"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_2"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#York"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_7"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Washington"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_8"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Cincinnati"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_11"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Angel"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_12"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Seattle"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_16"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Washington"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_20"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Orleans"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_20"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Pittsburgh"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_25"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#York"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_25"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Murray"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_29"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Colorado"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_30"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Kansas"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_35"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Mississippi"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_36"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Louisville"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_39"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Wisconsin"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_43"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Montana"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_44"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#TNT"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_44"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Marquette"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_47"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Syracuse"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_51"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Asheville"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_52"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Mexico"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_57"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Vanderbilt"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_61"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Harvard"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_62"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#TNT"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_62"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Kentucky"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_65"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Western"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_66"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Kentucky"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_66"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Wichita"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_69"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Virginia"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_70"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#West"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_76"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Virginia"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_76"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#TNT"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_76"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#South"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_80"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Dakota"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_80"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Iowa"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_83"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Connecticut"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_84"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Indiana"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_87"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Mexico"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_88"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Ohio"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_94"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#TNT"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_96"/>
+                
+    </rdfs:Class>
+    			
+    <rdfs:Class>
+                    
+        <rdfs:subClassOf rdf:resource="#Relationship"/>
+                    
+        <rdfs:range rdf:resource="#Colorado"/>
+                    
+        <rdfs:domain rdf:resource="#Sentence_100"/>
+                
+    </rdfs:Class>
+    
+</rdf:RDF>

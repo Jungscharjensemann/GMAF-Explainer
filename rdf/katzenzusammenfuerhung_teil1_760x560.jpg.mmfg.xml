@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:local="http://local/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="file:/C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/">
+            
+			
+    <owl:Ontology rdf:ID="katzenzusammenfuerhung_teil1_760x560.jpg"/>
+            
+    <owl:Class rdf:about="http://local/MMFG"/>
+            
+    <owl:Class rdf:about="http://local/Node"/>
+            
+    <owl:Class rdf:about="http://local/Annotation_Anchor"/>
+            
+    <owl:Class rdf:about="http://local/Relationship"/>
+    			
+    <owl:Class rdf:about="http://local/Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>katzenzusammenfuerhung_teil1_760x560.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/13c89e22-5cc6-4270-be82-714e7965cea5.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_2939150328813810517.jpg</rdfs:label>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plant">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plant"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Vertebrate">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Vertebrate"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Carnivore">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Carnivore"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Felidae">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Felidae"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Mammal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mammal"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Grass">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grass"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Fawn">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fawn"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Whiskers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Whiskers"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Small_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Small_to_medium-sized_cats"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat_2">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat_2"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Felidae">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Felidae"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Carnivore">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Carnivore"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Small_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Small_to_medium-sized_cats"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Whiskers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Whiskers"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Grass">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grass"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Terrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Terrestrial_animal"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Snout">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Snout"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Domestic_short-haired_cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Domestic_short-haired_cat"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Fur">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fur"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Carnivore">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Carnivore"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Small_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Small_to_medium-sized_cats"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Felidae">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Felidae"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Fawn">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fawn"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Terrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Terrestrial_animal"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Whiskers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Whiskers"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Grass">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grass"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Tail">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Tail"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Domestic_short-haired_cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Domestic_short-haired_cat"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cat_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cat_1"/>
+                
+    </owl:Class>
+    		
+    <owl:DatatypeProperty rdf:about="http://local/contains">
+                 
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+        
+        <rdfs:domain rdf:resource="http://local/Root-Image"/>
+        
+        <rdfs:range rdf:resource="http://local/Cat"/>
+        <rdfs:range rdf:resource="http://local/Plant"/>
+        <rdfs:range rdf:resource="http://local/Vertebrate"/>
+        <rdfs:range rdf:resource="http://local/Carnivore"/>
+        <rdfs:range rdf:resource="http://local/Felidae"/>
+        <rdfs:range rdf:resource="http://local/Mammal"/>
+        <rdfs:range rdf:resource="http://local/Grass"/>
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+        <rdfs:range rdf:resource="http://local/Whiskers"/>
+        <rdfs:range rdf:resource="http://local/Small_to_medium-sized_cats"/>
+        <rdfs:range rdf:resource="http://local/Cat_1"/>
+        <rdfs:range rdf:resource="http://local/Cat_2"/>
+        <rdfs:range rdf:resource="http://local/Cat"/>
+        <rdfs:range rdf:resource="http://local/Felidae"/>
+        <rdfs:range rdf:resource="http://local/Carnivore"/>
+        <rdfs:range rdf:resource="http://local/Small_to_medium-sized_cats"/>
+        <rdfs:range rdf:resource="http://local/Whiskers"/>
+        <rdfs:range rdf:resource="http://local/Grass"/>
+        <rdfs:range rdf:resource="http://local/Terrestrial_animal"/>
+        <rdfs:range rdf:resource="http://local/Snout"/>
+        <rdfs:range rdf:resource="http://local/Domestic_short-haired_cat"/>
+        <rdfs:range rdf:resource="http://local/Fur"/>
+        <rdfs:range rdf:resource="http://local/Cat_1"/>
+        <rdfs:range rdf:resource="http://local/Cat"/>
+        <rdfs:range rdf:resource="http://local/Carnivore"/>
+        <rdfs:range rdf:resource="http://local/Small_to_medium-sized_cats"/>
+        <rdfs:range rdf:resource="http://local/Felidae"/>
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+        <rdfs:range rdf:resource="http://local/Terrestrial_animal"/>
+        <rdfs:range rdf:resource="http://local/Whiskers"/>
+        <rdfs:range rdf:resource="http://local/Grass"/>
+        <rdfs:range rdf:resource="http://local/Tail"/>
+        <rdfs:range rdf:resource="http://local/Domestic_short-haired_cat"/>
+        <rdfs:range rdf:resource="http://local/Cat_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Image">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Image"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plant"/>
+                    
+        <rdfs:range rdf:resource="http://local/Vertebrate"/>
+                    
+        <rdfs:range rdf:resource="http://local/Carnivore"/>
+                    
+        <rdfs:range rdf:resource="http://local/Felidae"/>
+                    
+        <rdfs:range rdf:resource="http://local/Mammal"/>
+                    
+        <rdfs:range rdf:resource="http://local/Grass"/>
+                    
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+                    
+        <rdfs:range rdf:resource="http://local/Whiskers"/>
+                    
+        <rdfs:range rdf:resource="http://local/Small_to_medium-sized_cats"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat_2"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlant">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plant"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToVertebrate">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Vertebrate"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCarnivore">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Carnivore"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFelidae">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Felidae"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMammal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Mammal"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGrass">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Grass"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFawn">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Fawn"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWhiskers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Whiskers"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSmall_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Small_to_medium-sized_cats"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat"/>
+                    
+        <rdfs:range rdf:resource="http://local/Felidae"/>
+                    
+        <rdfs:range rdf:resource="http://local/Carnivore"/>
+                    
+        <rdfs:range rdf:resource="http://local/Small_to_medium-sized_cats"/>
+                    
+        <rdfs:range rdf:resource="http://local/Whiskers"/>
+                    
+        <rdfs:range rdf:resource="http://local/Grass"/>
+                    
+        <rdfs:range rdf:resource="http://local/Terrestrial_animal"/>
+                    
+        <rdfs:range rdf:resource="http://local/Snout"/>
+                    
+        <rdfs:range rdf:resource="http://local/Domestic_short-haired_cat"/>
+                    
+        <rdfs:range rdf:resource="http://local/Fur"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat_2">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat_2"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat"/>
+                    
+        <rdfs:range rdf:resource="http://local/Carnivore"/>
+                    
+        <rdfs:range rdf:resource="http://local/Small_to_medium-sized_cats"/>
+                    
+        <rdfs:range rdf:resource="http://local/Felidae"/>
+                    
+        <rdfs:range rdf:resource="http://local/Fawn"/>
+                    
+        <rdfs:range rdf:resource="http://local/Terrestrial_animal"/>
+                    
+        <rdfs:range rdf:resource="http://local/Whiskers"/>
+                    
+        <rdfs:range rdf:resource="http://local/Grass"/>
+                    
+        <rdfs:range rdf:resource="http://local/Tail"/>
+                    
+        <rdfs:range rdf:resource="http://local/Domestic_short-haired_cat"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cat_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFelidae">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Felidae"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCarnivore">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Carnivore"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSmall_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Small_to_medium-sized_cats"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWhiskers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Whiskers"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGrass">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Grass"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToTerrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Terrestrial_animal"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSnout">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Snout"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToDomestic_short-haired_cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Domestic_short-haired_cat"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFur">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Fur"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCarnivore">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Carnivore"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSmall_to_medium-sized_cats">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Small_to_medium-sized_cats"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFelidae">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Felidae"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToFawn">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Fawn"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToTerrestrial_animal">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Terrestrial_animal"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWhiskers">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Whiskers"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGrass">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Grass"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToTail">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Tail"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToDomestic_short-haired_cat">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Domestic_short-haired_cat"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCat_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cat_1"/>
+                
+    </owl:DatatypeProperty>
+    
+</rdf:RDF>

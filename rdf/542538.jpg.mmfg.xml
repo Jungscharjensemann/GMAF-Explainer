@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:local="http://local/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="file:/C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/">
+            
+			
+    <owl:Ontology rdf:ID="542538.jpg"/>
+            
+    <owl:Class rdf:about="http://local/MMFG"/>
+            
+    <owl:Class rdf:about="http://local/Node"/>
+            
+    <owl:Class rdf:about="http://local/Annotation_Anchor"/>
+            
+    <owl:Class rdf:about="http://local/Relationship"/>
+    			
+    <owl:Class rdf:about="http://local/Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>542538.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/36a8288c-a7e9-494b-968e-a657cc29d89a.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_14781793488738326365.jpg</rdfs:label>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/t...O_JAKED">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/t...O_JAKED"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/t...">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/t..."/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/O">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/O"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/JAKED">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/JAKED"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Car">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Car"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Cloud">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cloud"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Vehicle">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Vehicle"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Sky">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sky"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Tire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Tire"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Hood">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Hood"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Automotive_tire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Automotive_tire"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Automotive_lighting">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Automotive_lighting"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Automotive_design">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Automotive_design"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel_2">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel_2"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Car_3">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Car_3"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/AW_OJAKEO">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/AW_OJAKEO"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/AW">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/AW"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/OJAKEO">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/OJAKEO"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Tire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Tire"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Car">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Car"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Land_vehicle">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Land_vehicle"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Vehicle">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Vehicle"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Hood">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Hood"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Locking_hubs">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Locking_hubs"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Automotive_tire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Automotive_tire"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Automotive_design">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Automotive_design"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Kit_car">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Kit_car"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Mountain_Warehouse">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Mountain_Warehouse"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel_2">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel_2"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Wheel_3">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Wheel_3"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Car_4">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Car_4"/>
+                
+    </owl:Class>
+    		
+    <owl:DatatypeProperty rdf:about="http://local/contains">
+                 
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+        
+        <rdfs:domain rdf:resource="http://local/Root-Image"/>
+        
+        <rdfs:range rdf:resource="http://local/t...O_JAKED"/>
+        <rdfs:range rdf:resource="http://local/t..."/>
+        <rdfs:range rdf:resource="http://local/O"/>
+        <rdfs:range rdf:resource="http://local/JAKED"/>
+        <rdfs:range rdf:resource="http://local/Car"/>
+        <rdfs:range rdf:resource="http://local/Wheel"/>
+        <rdfs:range rdf:resource="http://local/Cloud"/>
+        <rdfs:range rdf:resource="http://local/Vehicle"/>
+        <rdfs:range rdf:resource="http://local/Sky"/>
+        <rdfs:range rdf:resource="http://local/Tire"/>
+        <rdfs:range rdf:resource="http://local/Hood"/>
+        <rdfs:range rdf:resource="http://local/Automotive_tire"/>
+        <rdfs:range rdf:resource="http://local/Automotive_lighting"/>
+        <rdfs:range rdf:resource="http://local/Automotive_design"/>
+        <rdfs:range rdf:resource="http://local/Wheel_1"/>
+        <rdfs:range rdf:resource="http://local/Wheel_2"/>
+        <rdfs:range rdf:resource="http://local/Car_3"/>
+        <rdfs:range rdf:resource="http://local/AW_OJAKEO"/>
+        <rdfs:range rdf:resource="http://local/AW"/>
+        <rdfs:range rdf:resource="http://local/OJAKEO"/>
+        <rdfs:range rdf:resource="http://local/Wheel"/>
+        <rdfs:range rdf:resource="http://local/Tire"/>
+        <rdfs:range rdf:resource="http://local/Car"/>
+        <rdfs:range rdf:resource="http://local/Land_vehicle"/>
+        <rdfs:range rdf:resource="http://local/Vehicle"/>
+        <rdfs:range rdf:resource="http://local/Hood"/>
+        <rdfs:range rdf:resource="http://local/Locking_hubs"/>
+        <rdfs:range rdf:resource="http://local/Automotive_tire"/>
+        <rdfs:range rdf:resource="http://local/Automotive_design"/>
+        <rdfs:range rdf:resource="http://local/Kit_car"/>
+        <rdfs:range rdf:resource="http://local/Mountain_Warehouse"/>
+        <rdfs:range rdf:resource="http://local/Wheel_1"/>
+        <rdfs:range rdf:resource="http://local/Wheel_2"/>
+        <rdfs:range rdf:resource="http://local/Wheel_3"/>
+        <rdfs:range rdf:resource="http://local/Car_4"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Image">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Image"/>
+                    
+        <rdfs:range rdf:resource="http://local/t...O_JAKED"/>
+                    
+        <rdfs:range rdf:resource="http://local/t..."/>
+                    
+        <rdfs:range rdf:resource="http://local/O"/>
+                    
+        <rdfs:range rdf:resource="http://local/JAKED"/>
+                    
+        <rdfs:range rdf:resource="http://local/Car"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel"/>
+                    
+        <rdfs:range rdf:resource="http://local/Cloud"/>
+                    
+        <rdfs:range rdf:resource="http://local/Vehicle"/>
+                    
+        <rdfs:range rdf:resource="http://local/Sky"/>
+                    
+        <rdfs:range rdf:resource="http://local/Tire"/>
+                    
+        <rdfs:range rdf:resource="http://local/Hood"/>
+                    
+        <rdfs:range rdf:resource="http://local/Automotive_tire"/>
+                    
+        <rdfs:range rdf:resource="http://local/Automotive_lighting"/>
+                    
+        <rdfs:range rdf:resource="http://local/Automotive_design"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel_2"/>
+                    
+        <rdfs:range rdf:resource="http://local/Car_3"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesTot...O_JAKED">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/t...O_JAKED"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesTot...">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/t..."/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToO">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/O"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToJAKED">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/JAKED"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Car"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCloud">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Cloud"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToVehicle">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Vehicle"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToSky">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Sky"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToTire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Tire"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHood">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Hood"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAutomotive_tire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Automotive_tire"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAutomotive_lighting">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Automotive_lighting"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAutomotive_design">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Automotive_design"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel_2">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel_2"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCar_3">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Car_3"/>
+                    
+        <rdfs:range rdf:resource="http://local/AW_OJAKEO"/>
+                    
+        <rdfs:range rdf:resource="http://local/AW"/>
+                    
+        <rdfs:range rdf:resource="http://local/OJAKEO"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel"/>
+                    
+        <rdfs:range rdf:resource="http://local/Tire"/>
+                    
+        <rdfs:range rdf:resource="http://local/Car"/>
+                    
+        <rdfs:range rdf:resource="http://local/Land_vehicle"/>
+                    
+        <rdfs:range rdf:resource="http://local/Vehicle"/>
+                    
+        <rdfs:range rdf:resource="http://local/Hood"/>
+                    
+        <rdfs:range rdf:resource="http://local/Locking_hubs"/>
+                    
+        <rdfs:range rdf:resource="http://local/Automotive_tire"/>
+                    
+        <rdfs:range rdf:resource="http://local/Automotive_design"/>
+                    
+        <rdfs:range rdf:resource="http://local/Kit_car"/>
+                    
+        <rdfs:range rdf:resource="http://local/Mountain_Warehouse"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel_2"/>
+                    
+        <rdfs:range rdf:resource="http://local/Wheel_3"/>
+                    
+        <rdfs:range rdf:resource="http://local/Car_4"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAW_OJAKEO">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/AW_OJAKEO"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAW">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/AW"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToOJAKEO">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/OJAKEO"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToTire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Tire"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Car"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToLand_vehicle">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Land_vehicle"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToVehicle">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Vehicle"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHood">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Hood"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToLocking_hubs">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Locking_hubs"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAutomotive_tire">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Automotive_tire"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToAutomotive_design">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Automotive_design"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToKit_car">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Kit_car"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMountain_Warehouse">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Mountain_Warehouse"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel_2">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel_2"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWheel_3">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Wheel_3"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToCar_4">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Car_4"/>
+                
+    </owl:DatatypeProperty>
+    
+</rdf:RDF>

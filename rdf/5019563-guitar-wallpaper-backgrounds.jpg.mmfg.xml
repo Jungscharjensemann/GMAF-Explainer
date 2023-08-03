@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:local="http://local/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="file:/C:/Users/Doktor/Documents/Studium_Informatik/2021WS/GMAF/">
+            
+			
+    <owl:Ontology rdf:ID="5019563-guitar-wallpaper-backgrounds.jpg"/>
+            
+    <owl:Class rdf:about="http://local/MMFG"/>
+            
+    <owl:Class rdf:about="http://local/Node"/>
+            
+    <owl:Class rdf:about="http://local/Annotation_Anchor"/>
+            
+    <owl:Class rdf:about="http://local/Relationship"/>
+    			
+    <owl:Class rdf:about="http://local/Root-Image">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Root-Image"/>
+                    
+        <rdfs:label>5019563-guitar-wallpaper-backgrounds.jpg</rdfs:label>
+                    
+        <rdfs:label>http://dev.step2e.de/2bae693f-be15-4840-9b06-3ba1030aa590.jpg</rdfs:label>
+                    
+        <rdfs:label>GMAF_TMP_3921728926132525665.jpg</rdfs:label>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/HASTATI">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HASTATI"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/HASTATI">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HASTATI"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Musical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plucked_string_instruments"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Musical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Grey">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Grey"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Music">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Music"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/HAS">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HAS"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/HAS">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/HAS"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Musical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/White">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/White"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Musical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plucked_string_instruments"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Electronic_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Electronic_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_1"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Musical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/String_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/String_instrument_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Musical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Musical_instrument_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_accessory"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Plucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Plucked_string_instruments"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Music">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Music"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Electronic_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Electronic_instrument"/>
+                
+    </owl:Class>
+    			
+    <owl:Class rdf:about="http://local/Guitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Node"/>
+                    
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Guitar_1"/>
+                
+    </owl:Class>
+    		
+    <owl:DatatypeProperty rdf:about="http://local/contains">
+                 
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+        
+        <rdfs:domain rdf:resource="http://local/Root-Image"/>
+        
+        <rdfs:range rdf:resource="http://local/HASTATI"/>
+        <rdfs:range rdf:resource="http://local/HASTATI"/>
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+        <rdfs:range rdf:resource="http://local/Grey"/>
+        <rdfs:range rdf:resource="http://local/Music"/>
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+        <rdfs:range rdf:resource="http://local/HAS"/>
+        <rdfs:range rdf:resource="http://local/HAS"/>
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+        <rdfs:range rdf:resource="http://local/White"/>
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+        <rdfs:range rdf:resource="http://local/Electronic_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+        <rdfs:range rdf:resource="http://local/Music"/>
+        <rdfs:range rdf:resource="http://local/Electronic_instrument"/>
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToRoot-Image">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Root-Image"/>
+                    
+        <rdfs:range rdf:resource="http://local/HASTATI"/>
+                    
+        <rdfs:range rdf:resource="http://local/HASTATI"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Grey"/>
+                    
+        <rdfs:range rdf:resource="http://local/Music"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHASTATI">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/HASTATI"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHASTATI">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/HASTATI"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Musical_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plucked_string_instruments"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Musical_instrument_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGrey">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Grey"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusic">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Music"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/HAS"/>
+                    
+        <rdfs:range rdf:resource="http://local/HAS"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+                    
+        <rdfs:range rdf:resource="http://local/White"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+                    
+        <rdfs:range rdf:resource="http://local/Electronic_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHAS">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/HAS"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToHAS">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/HAS"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Musical_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToWhite">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/White"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Musical_instrument_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plucked_string_instruments"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToElectronic_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Electronic_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+                    
+        <rdfs:range rdf:resource="http://local/Music"/>
+                    
+        <rdfs:range rdf:resource="http://local/Electronic_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusical_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Musical_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToString_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/String_instrument_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusical_instrument_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Musical_instrument_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar_accessory">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar_accessory"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToPlucked_string_instruments">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Plucked_string_instruments"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToMusic">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Music"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToElectronic_instrument">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Electronic_instrument"/>
+                
+    </owl:DatatypeProperty>
+    			
+    <owl:DatatypeProperty rdf:about="http://local/relatesToGuitar_1">
+                    
+        <rdfs:subClassOf rdf:resource="http://local/Relationship"/>
+                    
+        <rdfs:domain rdf:resource="http://local/Guitar_1"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar"/>
+                    
+        <rdfs:range rdf:resource="http://local/White"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Black"/>
+                    
+        <rdfs:range rdf:resource="http://local/Musical_instrument_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_accessory"/>
+                    
+        <rdfs:range rdf:resource="http://local/String_instrument"/>
+                    
+        <rdfs:range rdf:resource="http://local/Plucked_string_instruments"/>
+                    
+        <rdfs:range rdf:resource="http://local/Guitar_1"/>
+                
+    </owl:DatatypeProperty>
+    
+</rdf:RDF>

@@ -1,0 +1,50 @@
+<de.swa.mmfg.MMFG>
+  <nodes>
+    <de.swa.mmfg.Node>
+      <name>Root-Asset</name>
+      <childNodes/>
+      <weights>
+        <de.swa.mmfg.Weight>
+          <context>
+            <name>Default</name>
+            <id>4966fe69-c940-4a6f-add7-b04cfac87b48</id>
+          </context>
+          <weight>0.5</weight>
+        </de.swa.mmfg.Weight>
+      </weights>
+      <technicalAttributes/>
+      <semanticRelationships/>
+      <compositionRelationships/>
+      <assetLinks/>
+      <fv reference="../../.."/>
+    </de.swa.mmfg.Node>
+  </nodes>
+  <generalMetadata>
+    <id>4b090926-895e-48a0-a9ca-c1aeb4e5941f</id>
+    <longitude>0</longitude>
+    <latitude>0</latitude>
+    <aperture>0.0</aperture>
+    <exposure>0.0</exposure>
+    <focalLength>0</focalLength>
+    <resolution>0</resolution>
+    <width>-1</width>
+    <height>-1</height>
+    <date>2023-07-22 12:42:09.202 UTC</date>
+    <fileSize>1744808</fileSize>
+    <iso>0</iso>
+    <shutterSpeed>0</shutterSpeed>
+    <fileName>IMG_2724.jpeg</fileName>
+  </generalMetadata>
+  <locations>
+    <de.swa.mmfg.Location>
+      <type>40</type>
+      <name>IMG_2724.jpeg</name>
+    </de.swa.mmfg.Location>
+  </locations>
+  <currentNode reference="../nodes/de.swa.mmfg.Node"/>
+  <allNodes>
+    <de.swa.mmfg.Node reference="../../nodes/de.swa.mmfg.Node"/>
+    <de.swa.mmfg.Node reference="../../nodes/de.swa.mmfg.Node"/>
+  </allNodes>
+  <collectionElements/>
+</de.swa.mmfg.MMFG>
