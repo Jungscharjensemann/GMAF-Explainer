@@ -31,7 +31,7 @@ public class ImagePanel extends JPanel implements ActionListener {
 
     private String prompt;
 
-    private static String key = "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";
+    private static String key = "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";
 
     private JSpinner nSpinner;
 
