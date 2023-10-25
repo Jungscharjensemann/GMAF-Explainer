@@ -1,13 +1,13 @@
 package de.swa.gc;
 
-import java.io.File;
-import java.util.*;
-import java.util.stream.Collectors;
-
 import com.google.common.collect.Sets;
-import de.swa.ui.MMFGCollection;
 import de.swa.ui.Configuration;
-import org.apache.jena.graph.Graph;
+import de.swa.ui.MMFGCollection;
+
+import java.io.File;
+import java.util.Hashtable;
+import java.util.LinkedHashSet;
+import java.util.Vector;
 
 /** this class contains operations for Graph Code Collections, i.e. connected recursive lists of Graph Codes
  * 
@@ -128,15 +128,14 @@ public class GraphCodeCollection {
 		return gc;
 	}
 
+	/**
+	 * Algorithmus zum Berechnen der Gemeinsamkeiten von
+	 * Graph Codes.
+	 * @param gcs Zu verarbeitenden Graph Codes.
+	 * @return Graph Code aus Gemeinsamkeiten.
+	 */
 	public static GraphCode getSimilarities(Vector<GraphCode> gcs) {
 		GraphCode similarities = new GraphCode();
-
-		/*GraphCode union = getUnion(gcs);
-		Set<String> dic = new HashSet<>(union.getDictionary());
-		for (GraphCode gc : gcs) {
-			dic.retainAll(gc.getDictionary());
-		}
-		Vector<String> dictionary = new Vector<>(dic);*/
 
 		GraphCode union = getUnion(gcs);
 		Vector<String> unionDic = new Vector<>(union.getDictionary());
@@ -163,16 +162,14 @@ public class GraphCodeCollection {
 		return similarities;
 	}
 
+	/**
+	 * Algorithmus zum Berechnen der Unterschiede von
+	 * Graph Codes.
+	 * @param gcs Zu verarbeitenden Graph Codes.
+	 * @return Graph Code aus Unterschieden.
+	 */
 	public static GraphCode getDifferences(Vector<GraphCode> gcs) {
 		GraphCode differences = new GraphCode();
-
-		/*GraphCode union = getUnion(gcs);
-		Set<String> dic = new HashSet<>(union.getDictionary());
-		for (GraphCode gc : gcs) {
-			dic.retainAll(gc.getDictionary());
-		}
-		Sets.SetView<String> setView = Sets.difference(new HashSet<>(union.getDictionary()), dic);
-		Vector<String> dictionary = new Vector<>(setView);*/
 
 		GraphCode union = getUnion(gcs);
 		Vector<String> unionDic = new Vector<>(union.getDictionary());

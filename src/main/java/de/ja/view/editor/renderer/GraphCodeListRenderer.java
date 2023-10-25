@@ -5,6 +5,10 @@ import de.ja.model.editor.GraphCodeListElement;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Diese Klasse stellt den Renderer für
+ * die Elemente in der Liste dar.
+ */
 public class GraphCodeListRenderer extends JLabel implements ListCellRenderer<GraphCodeListElement> {
 
     public GraphCodeListRenderer() {

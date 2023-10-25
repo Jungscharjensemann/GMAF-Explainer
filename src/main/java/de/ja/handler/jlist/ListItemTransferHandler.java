@@ -9,6 +9,12 @@ import java.awt.dnd.DragSource;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * Diese Klasse stellt einen Handler für die Elemente in
+ * der Liste dar und übernimmt bzw. ermöglicht Interaktionen
+ * wie Drag u. Drop.
+ * @param <GraphCodeListElement> Element in der Liste.
+ */
 public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandler {
     protected final DataFlavor localObjectFlavor;
     protected int[] indices;
@@ -17,8 +23,6 @@ public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandl
 
     public ListItemTransferHandler() {
         super();
-        // localObjectFlavor = new ActivationDataFlavor(
-        //   Object[].class, DataFlavor.javaJVMLocalObjectMimeType, "Array of items");
         localObjectFlavor = new DataFlavor(Object[].class, "Array of items");
     }
 
@@ -29,7 +33,6 @@ public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandl
 
         indices = source.getSelectedIndices();
         Object[] transferredObjects = source.getSelectedValuesList().toArray(new Object[0]);
-        // return new DataHandler(transferedObjects, localObjectFlavor.getMimeType());
         return new Transferable() {
             @Override public DataFlavor[] getTransferDataFlavors() {
                 return new DataFlavor[] {localObjectFlavor};
@@ -38,7 +41,7 @@ public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandl
                 return Objects.equals(localObjectFlavor, flavor);
             }
             @Override public Object getTransferData(DataFlavor flavor)
-                    throws UnsupportedFlavorException, IOException {
+                    throws UnsupportedFlavorException {
                 if (isDataFlavorSupported(flavor)) {
                     return transferredObjects;
                 } else {
@@ -67,15 +70,13 @@ public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandl
         if (!canImport(info) || !(tdl instanceof JList.DropLocation)) {
             return false;
         }
-
         JList.DropLocation dl = (JList.DropLocation) tdl;
         JList<GraphCodeListElement> target = (JList<GraphCodeListElement>) info.getComponent();
         DefaultListModel<GraphCodeListElement> listModel = (DefaultListModel<GraphCodeListElement>) target.getModel();
         int max = listModel.getSize();
         int index = dl.getIndex();
-        index = index < 0 ? max : index; // If it is out of range, it is appended to the end
+        index = index < 0 ? max : index; // If out of range, appended to end
         index = Math.min(index, max);
-
         addIndex = index;
 
         try {
@@ -90,7 +91,6 @@ public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandl
         } catch (UnsupportedFlavorException | IOException ex) {
             ex.printStackTrace();
         }
-
         return false;
     }
 
@@ -103,20 +103,18 @@ public class ListItemTransferHandler<GraphCodeListElement> extends TransferHandl
     private void cleanup(JComponent c, boolean remove) {
         if (remove && Objects.nonNull(indices)) {
             if (addCount > 0) {
-                // https://github.com/aterai/java-swing-tips/blob/master/DragSelectDropReordering/src/java/example/MainPanel.java
                 for (int i = 0; i < indices.length; i++) {
                     if (indices[i] >= addIndex) {
                         indices[i] += addCount;
                     }
                 }
             }
-            JList<GraphCodeListElement> source = (JList<GraphCodeListElement>) c;
-            DefaultListModel<GraphCodeListElement> model = (DefaultListModel<GraphCodeListElement>) source.getModel();
+            JList<?> source = (JList<?>) c;
+            DefaultListModel<?> model = (DefaultListModel<?>) source.getModel();
             for (int i = indices.length - 1; i >= 0; i--) {
                 model.remove(indices[i]);
             }
         }
-
         indices = null;
         addCount = 0;
         addIndex = -1;

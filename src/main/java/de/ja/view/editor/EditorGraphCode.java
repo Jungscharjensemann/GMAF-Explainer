@@ -12,64 +12,66 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 
+/**
+ * Diese Klasse stellt den Grundbereich
+ * EditorGraphCode dar.
+ */
 public class EditorGraphCode extends JPanel {
-    private JPanel operationsPanel;
 
-    private JPanel calculationPanel;
-
-    private JPanel leftPart;
-
-    private JPanel rightPart;
-
+    // Name eines ausgewählten Graph Codes.
     private final JLabel graphCodeName;
 
+    // Tabellarische Darstellung eines ausgewählten Graph Codes.
     private final GraphCodeTable graphCodeTable;
 
+    // Darstellung der mit ausgewähltem Graph Code
+    // assoziierten originalen Datei.
+    private final OriginalAssetPanel originalAssetPanel;
+
+    // Auswahlliste für Operationen auf Graph Codes.
     private final JComboBox<String> calculationComboBox;
+
+    // Liste an Graph Codes.
     private final JList<GraphCodeListElement> graphCodeList;
 
+    // Datenmodell für die Liste an Graph Codes.
     private final DefaultListModel<GraphCodeListElement> graphCodeListModel;
 
     public EditorGraphCode(ExplainerFrame reference) {
-
         setLayout(new GridLayout(1, 2));
         setBorder(new TitledBorder("GraphCode - Editor"));
-
-        operationsPanel = new JPanel();
+        // Panel für Interaktionsmöglichkeiten mit Graph Code Dateien.
+        JPanel operationsPanel = new JPanel();
         operationsPanel.setLayout(new GridLayout(0, 2));
         operationsPanel.setMinimumSize(new Dimension(0, 100));
-
-        JButton openGraphCodeChooserButton = new JButton("Select Graph Code(s)");
-        openGraphCodeChooserButton.addActionListener(new SelectGraphCodesController(this));
+        // Knopf zum Importieren von Graph Code Dateien.
+        JButton openGraphCodeChooserButton = new JButton("Import Graph Code(s)");
+        openGraphCodeChooserButton.addActionListener(new ImportGraphCodesController(this));
         operationsPanel.add(openGraphCodeChooserButton);
-
+        // Knopf zum Entfernen von Graph Code Dateien.
         JButton removeSelectedButton = new JButton("Remove selected Graph Code(s)");
         removeSelectedButton.addActionListener(new RemoveSelectedGraphCodesController(this));
         operationsPanel.add(removeSelectedButton);
-
-        calculationPanel = new JPanel();
-        calculationPanel.setLayout(new GridLayout(1, 2));
-
+        // Auswahlliste für Operationen.
         calculationComboBox = new JComboBox<>();
+        calculationComboBox.addItem("GraphCode Operation");
         calculationComboBox.addItem("Union");
         calculationComboBox.addItem("Subtraction");
         calculationComboBox.addItem("Similarities");
         calculationComboBox.addItem("Differences");
         operationsPanel.add(calculationComboBox);
-
+        // Knopf zum Ausführen einer Operation auf Graph Codes.
         JButton calculationOperationButton = new JButton("Execute");
-        calculationOperationButton.addActionListener(new GraphCodeCalculationController(this));
+        calculationOperationButton.addActionListener(new GraphCodeCalculationController(reference));
         operationsPanel.add(calculationOperationButton);
-
-        leftPart = new JPanel();
+        // Linker Teil der Arbeitsfläche.
+        JPanel leftPart = new JPanel();
         leftPart.setLayout(new BorderLayout());
         leftPart.setMinimumSize(new Dimension(200, 300));
-
         leftPart.add(operationsPanel, BorderLayout.NORTH);
-        leftPart.add(calculationPanel, BorderLayout.SOUTH);
 
         graphCodeListModel = new DefaultListModel<>();
-
+        // Liste an Graph Codes initialisieren und konfigurieren.
         graphCodeList = new JList<>(graphCodeListModel);
         graphCodeList.setLayout(new FlowLayout(FlowLayout.LEADING));
         graphCodeList.setMinimumSize(new Dimension(100, 50));
@@ -85,21 +87,30 @@ public class EditorGraphCode extends JPanel {
         graphCodeList.putClientProperty("List.isFileList", Boolean.TRUE);
 
         leftPart.add(new JScrollPane(graphCodeList), BorderLayout.CENTER);
-
-        rightPart = new JPanel();
+        // Rechter Teil der Arbeitsfläche.
+        JPanel rightPart = new JPanel();
         rightPart.setLayout(new BorderLayout());
 
         JPanel topRight = new JPanel();
         topRight.setLayout(new BorderLayout());
+        // Panel für tabellarische und originale Darstellung
+        // eines ausgewählten Graph Codes.
+        JTabbedPane tabbedPane = new JTabbedPane();
 
         graphCodeName = new JLabel();
         graphCodeName.setBorder(new EmptyBorder(5, 5, 5, 5));
         graphCodeName.setHorizontalAlignment(JLabel.CENTER);
         graphCodeName.setHorizontalTextPosition(SwingConstants.CENTER);
         topRight.add(graphCodeName, BorderLayout.CENTER);
-
+        // Tabellarische Darstellung eines ausgewählten Graph Codes.
         graphCodeTable = new GraphCodeTable();
-        rightPart.add(graphCodeTable, BorderLayout.CENTER);
+        // Darstellung der Original-Datei eines ausgewählten Graph Codes.
+        originalAssetPanel = new OriginalAssetPanel();
+        // Tabs hinzufügen.
+        tabbedPane.addTab("GraphCode - Table", graphCodeTable);
+        tabbedPane.addTab("Original Asset", originalAssetPanel);
+
+        rightPart.add(tabbedPane, BorderLayout.CENTER);
         rightPart.add(topRight, BorderLayout.NORTH);
 
         add(leftPart);
@@ -112,6 +123,10 @@ public class EditorGraphCode extends JPanel {
 
     public JList<GraphCodeListElement> getGraphCodeList() {
         return graphCodeList;
+    }
+
+    public OriginalAssetPanel getOriginalAssetPanel() {
+        return originalAssetPanel;
     }
 
     public JLabel getGraphCodeName() {

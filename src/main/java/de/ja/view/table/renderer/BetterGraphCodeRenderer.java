@@ -8,7 +8,13 @@ import javax.swing.border.LineBorder;
 import javax.swing.border.MatteBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+/**
+ * Diese Klasse stellt einen Renderer für die tabellarische
+ * Darstellung eines ausgewählten Graph Codes dar.
+ */
 public class BetterGraphCodeRenderer extends DefaultTableCellRenderer {
 
     Dimension dim = new Dimension(73, 18);
@@ -28,7 +34,13 @@ public class BetterGraphCodeRenderer extends DefaultTableCellRenderer {
             l.setForeground(Color.black);
         } else {
             l.setBackground(null);
-            l.setForeground(tFG);
+            Pattern pattern = Pattern.compile("[1-9]*");
+            Matcher matcher = pattern.matcher((String) value);
+            if(matcher.matches()) {
+                l.setForeground(Color.cyan);
+            } else {
+                l.setForeground(tFG);
+            }
         }
         if(column > 0 && row > 0) {
             l.setHorizontalAlignment(SwingConstants.CENTER);
@@ -36,7 +48,7 @@ public class BetterGraphCodeRenderer extends DefaultTableCellRenderer {
             l.setHorizontalAlignment(LEFT);
         }
         if(column > 0 && row == 0) {
-            JLabel vL = new JLabel(" " + value);
+            JLabel vL = new JLabel(String.valueOf(value));
             vL.setPreferredSize(dim);
             vL.setBorder(matteBorder);
             vL.setHorizontalAlignment(CENTER);

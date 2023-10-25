@@ -4,10 +4,15 @@ import de.swa.gc.GraphCode;
 
 import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableModel;
 
+/**
+ * Diese Klasse stellt das Datenmodell für
+ * die tabellarische Darstellung eines Graph
+ * Codes dar.
+ */
 public class GraphCodeTableModel extends AbstractTableModel {
 
+    // Assoziierter Graph Code.
     private GraphCode graphCode;
 
     public GraphCodeTableModel() {}
@@ -30,6 +35,7 @@ public class GraphCodeTableModel extends AbstractTableModel {
     }
 
     public Object getValueAt(int rowIndex, int columnIndex) {
+        // Wert an Zeile u. Spalte zuweisen.
         try {
             if(columnIndex == 0 && rowIndex == 0) {
                 return "";
@@ -59,12 +65,19 @@ public class GraphCodeTableModel extends AbstractTableModel {
         return true;
     }
 
-    public void removeTableModelListener(TableModelListener l) {
-    }
+    public void removeTableModelListener(TableModelListener l) {}
 
     public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
+        if(graphCode != null) {
+            graphCode.setValue(rowIndex - 1, columnIndex - 1, Integer.parseInt((String) aValue));
+        }
     }
 
+    /**
+     * Setzt aktuellen Graph Code und
+     * lässt Daten aktualisiert.
+     * @param graphCode Ausgewählter Graph Code.
+     */
     public void setGraphCode(GraphCode graphCode) {
         this.graphCode = graphCode;
         fireTableDataChanged();

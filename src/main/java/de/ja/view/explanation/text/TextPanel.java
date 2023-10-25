@@ -1,11 +1,17 @@
 package de.ja.view.explanation.text;
 
+import com.ibm.icu.text.RuleBasedNumberFormat;
+import com.knuddels.jtokkit.api.ModelType;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
 import com.theokanning.openai.completion.chat.ChatMessage;
+import com.theokanning.openai.completion.chat.ChatMessageRole;
 import com.theokanning.openai.service.OpenAiService;
+import de.ja.view.ExplainerFrame;
+import de.ja.view.explanation.text.textinfo.GeneratedTextsPanel;
 import de.swa.gc.GraphCode;
 import net.miginfocom.swing.MigLayout;
+import org.apache.commons.lang3.StringUtils;
 import org.jdesktop.swingx.JXTaskPane;
 
 import javax.swing.*;
@@ -16,102 +22,130 @@ import java.awt.event.ActionListener;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
 public class TextPanel extends JPanel implements ActionListener {
 
-    private GraphCode graphCode;
+    // API-Key.
+    private static String key;
 
-    private String prompt;
-
-    private static String key = "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";
-
-    private JSpinner temperatureSpinner, topPSpinner, nSpinner,
-            maxTokensSpinner, presencePenaltySpinner, frequencyPenaltySpinner;
-
+    // Textfeld für die generierte Prompt.
     private final JTextArea promptArea;
-    private final JTextArea textResponseArea;
 
+    private final JSpinner temperatureSpinner;
+    private final JSpinner topPSpinner;
+
+    // Anzahl zu generierender Texte.
+    private final JSpinner nSpinner;
+    private final JSpinner maxTokensSpinner;
+    private final JSpinner presencePenaltySpinner;
+    private final JSpinner frequencyPenaltySpinner;
+
+    // Nachrichten, die die Prompt darstellen.
     private List<ChatMessage> messages = new ArrayList<>();
 
-    public TextPanel() {
-        MigLayout imagePanelMigLayout = new MigLayout("" , "[fill, grow]", "10[fill,15%][12.5%][][fill,72.5%]");
-        setLayout(imagePanelMigLayout);
+    // Panel für alle generierten Texte.
+    private final GeneratedTextsPanel generatedTextsPanel;
 
+    // Modell der generativen KI.
+    private final ModelType modelType = ModelType.GPT_4;
+
+    // Referenz.
+    private final ExplainerFrame reference;
+
+    public TextPanel(ExplainerFrame reference) {
+        this.reference = reference;
+        key = System.getenv("OpenAI-Key");
+        // Layout definieren.
+        MigLayout imagePanelMigLayout = new MigLayout("" , "[fill, grow]", "10[12.5%][][fill,57.5%][fill,30%]");
+        setLayout(imagePanelMigLayout);
+        // Textfeld für die Prompt initialisieren und konfigurieren.
         promptArea = new JTextArea();
         promptArea.setLineWrap(true);
         promptArea.setWrapStyleWord(true);
+        promptArea.setEditable(false);
         JScrollPane promptSP = new JScrollPane(promptArea);
         promptSP.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        promptSP.setBorder(new TitledBorder("Prompt"));
-        add(promptSP, "cell 0 0, growx, height ::15%, aligny top");
-
+        promptSP.setBorder(new TitledBorder("Generated Prompt"));
+        add(promptSP, "cell 0 3, growx, height ::30%, aligny top");
+        // Ästhetische Eigenschaften für erweiterte Optionen einstellen...
         UIManager.put("TaskPane.animate", Boolean.FALSE);
         UIManager.put("TaskPane.titleOver", new Color(200, 200, 200));
-        //UIManager.put("TaskPane.specialTitleBackground", new Color(23, 162, 162));
         UIManager.put("TaskPane.titleForeground", new Color(187, 187, 187));
         UIManager.put("TaskPane.titleBackgroundGradientStart", new Color(85, 88, 89));
         UIManager.put("TaskPane.titleBackgroundGradientEnd", new Color(85, 88, 89));
         UIManager.put("TaskPane.background", new Color(76, 80, 82));
         UIManager.put("TaskPane.borderColor", new Color(94, 96, 96));
-
+        // Erweiterte Optionen initialisieren und konfigurieren.
         JXTaskPane advancedOptions = new JXTaskPane();
         advancedOptions.setCollapsed(true);
         advancedOptions.setTitle("Advanced Options");
-        add(advancedOptions, "cell 0 1, growx, aligny top");
-
+        add(advancedOptions, "cell 0 0, growx, aligny top");
+        // Layout für die Optionen in den erweiterten Optionen definieren.
         MigLayout advancedOptionsMigLayout = new MigLayout("", "0[]5[]10[]5[]0", "0[]0");
         advancedOptions.setLayout(advancedOptionsMigLayout);
+
+        // Erweiterte Optionen definieren.
 
         JLabel temperatureLabel = new JLabel("Temperature:");
         temperatureLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         temperatureLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        SpinnerNumberModel temperatureSpinnerModel = new SpinnerNumberModel(0, 0, 2, 0.1);
         temperatureSpinner = new JSpinner();
+        SpinnerNumberModel temperatureSpinnerModel = new SpinnerNumberModel(0, 0, 2, 0.1);
         temperatureSpinner.setModel(temperatureSpinnerModel);
 
         JLabel topPLabel = new JLabel("Top P:");
         topPLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         topPLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        SpinnerNumberModel topPSpinnerModel = new SpinnerNumberModel(0, 0, 1, 0.01);
         topPSpinner = new JSpinner();
+        SpinnerNumberModel topPSpinnerModel = new SpinnerNumberModel(0, 0, 1, 0.01);
         topPSpinner.setModel(topPSpinnerModel);
 
         JLabel nLabel = new JLabel("N:");
         nLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         nLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        SpinnerNumberModel nSpinnerModel = new SpinnerNumberModel(1, 1, 2, 1);
         nSpinner = new JSpinner();
+        SpinnerNumberModel nSpinnerModel = new SpinnerNumberModel(1, 1, 10, 1);
         nSpinner.setModel(nSpinnerModel);
 
         JLabel maxTokensLabel = new JLabel("Max Tokens:");
         maxTokensLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         maxTokensLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        SpinnerNumberModel maxTokensSpinnerModel = new SpinnerNumberModel(0, 0, 8192, 1);
         maxTokensSpinner = new JSpinner();
+        SpinnerNumberModel maxTokensSpinnerModel = new SpinnerNumberModel(256, 0, 8192, 1);
         maxTokensSpinner.setModel(maxTokensSpinnerModel);
 
         JLabel presencePenaltyLabel = new JLabel("Presence Penalty:");
         presencePenaltyLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         presencePenaltyLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        SpinnerNumberModel presencePenaltySpinnerModel = new SpinnerNumberModel(0, -2, 2, 0.1);
         presencePenaltySpinner = new JSpinner();
+        SpinnerNumberModel presencePenaltySpinnerModel = new SpinnerNumberModel(0, -2, 2, 0.1);
         presencePenaltySpinner.setModel(presencePenaltySpinnerModel);
 
         JLabel frequencyPenaltyLabel = new JLabel("Frequency Penalty:");
         frequencyPenaltyLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         frequencyPenaltyLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        SpinnerNumberModel frequencyPenaltySpinnerModel = new SpinnerNumberModel(0, -2, 2, 0.1);
         frequencyPenaltySpinner = new JSpinner();
+        SpinnerNumberModel frequencyPenaltySpinnerModel = new SpinnerNumberModel(0, -2, 2, 0.1);
         frequencyPenaltySpinner.setModel(frequencyPenaltySpinnerModel);
+
+        JLabel modelTypeLabel = new JLabel("Model Type:");
+        modelTypeLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+        modelTypeLabel.setHorizontalAlignment(SwingConstants.CENTER);
+
+        JComboBox<String> modelTypeComboBox = new JComboBox<>();
+        for(ModelType type : ModelType.values()) {
+            modelTypeComboBox.addItem(StringUtils.capitalize(type.getName()));
+        }
 
         advancedOptions.add(temperatureLabel);
         advancedOptions.add(temperatureSpinner);
@@ -124,97 +158,115 @@ public class TextPanel extends JPanel implements ActionListener {
         advancedOptions.add(presencePenaltyLabel);
         advancedOptions.add(presencePenaltySpinner);
         advancedOptions.add(frequencyPenaltyLabel);
-        advancedOptions.add(frequencyPenaltySpinner);
+        advancedOptions.add(frequencyPenaltySpinner, "wrap");
+        advancedOptions.add(modelTypeLabel);
+        advancedOptions.add(modelTypeComboBox, "width ::84px");
 
+        // Knopf zum Generieren von Texten.
         JButton generateChatCompletions = new JButton("Generate Chat-Completion(s)");
         generateChatCompletions.addActionListener(this);
-        add(generateChatCompletions, "cell 0 2, width ::190px, aligny top");
+        add(generateChatCompletions, "cell 0 1, width ::190px, aligny top");
 
-        textResponseArea = new JTextArea();
-        textResponseArea.setLineWrap(true);
-        textResponseArea.setWrapStyleWord(true);
+        generatedTextsPanel = new GeneratedTextsPanel(modelType);
 
-        JScrollPane textResponseAreaSP = new JScrollPane(textResponseArea);
-        textResponseAreaSP.setBorder(new TitledBorder("Text"));
-
-        add(textResponseAreaSP, "cell 0 3, growx, aligny top");
+        add(generatedTextsPanel, "cell 0 2, growx, aligny top");
     }
 
+    /**
+     * Graph Code verarbeiten
+     * @param graphCode Ausgewählter Graph Code.
+     */
     public void setGraphCode(GraphCode graphCode) {
-        this.graphCode = graphCode;
 
         if(graphCode != null) {
-            prompt = setUpPrompt(graphCode);
+            String prompt = setUpPrompt(graphCode);
             promptArea.setText(prompt);
         } else {
             promptArea.setText(null);
         }
     }
 
+    /**
+     * Prompt vorbereiten und aus Graph Code
+     * generieren.
+     * @param graphCode Ausgewählter Graph Code.
+     * @return Generierte Prompt.
+     */
     private String setUpPrompt(GraphCode graphCode) {
-        String s = graphCode.formattedTerms(1);
+        String s = graphCode.getFormattedTerms2();
 
         messages = new ArrayList<>();
-
+        messages.add(new ChatMessage(ChatMessageRole.SYSTEM.value(),
+                "You are an assistant, who is able to generate cohesive textual explanations based on a collection of words."));
         messages.add(new ChatMessage(
-                "system",
-                "You are an assistant, who is able to generate cohesive textual explanations based on a json string.")
-        );
-        /*messages.add(new ChatMessage(
-                "assistant",
-                "The given JSON string represents a dictionary and a matrix. The dictionary " +
-                        "contains the feature vocabulary terms. The matrix is a square two dimensional " +
-                        "matrix where each element represents the relationship between two words. The " +
-                        "value in the matrix indicates the strength of the relationship between " +
-                        "the corresponding words."));*/
+                ChatMessageRole.SYSTEM.value(),
+                "The collection of words represents a dictionary. The dictionary contains so-called feature " +
+                        "vocabulary terms. Additionally some of these terms are connected through a relationship. " +
+                        "These relationships will be noted as <i_t> - <i_t1,...,i_tn>, where i_t denotes the index of a feature " +
+                        "vocabulary term in the given collection."));
         messages.add(new ChatMessage(
-                "assistant",
-                "The given JSON string represents a dictionary. The dictionary contains the feature" +
-                        "vocabulary terms. Additionally some of these terms are connected through a relationship." +
-                        "These relationships will be noted as <t> - <t1,...,tn>, where <t> is a feature vocabulary term."));
-        messages.add(new ChatMessage(
-                "assistant",
+                ChatMessageRole.SYSTEM.value(),
                 "Using these terms, we can create a coherent explanation that accurately " +
                         "describes the terms and its relations.\n" +
                         "\n" +
                         "An example could be: The image shows water, the sky, and clouds. " +
-                        "We can imagine a beautiful scene with clouds floating in the sky above."));
+                        "We can imagine a scene with clouds floating in the sky above."));
         messages.add(new ChatMessage(
-                "user",
-                graphCode.reducedString() + ". Only respect these terms " + s + " and ignore all others. " +
-                        "Do not mention the dictionary and its terms. Only generate a text containing " +
-                        "the terms like in the example above."));
+                ChatMessageRole.USER.value(),
+                "The collections of words is as follows: " + graphCode.listTerms() + ". Only respect these terms and its relations: " + s + ", and ignore all others. " +
+                        "Do not create an explanation regarding the dictionary. Only generate a text containing " +
+                        "the terms of the dictionary like in the example above."));
         messages.add(new ChatMessage(
-                "assistant",
-                "Based on the provided JSON string, here is a cohesive text " +
+                ChatMessageRole.ASSISTANT.value(),
+                "Based on the dictionary, here is a cohesive text " +
                         "containing the terms from the dictionary:"));
+        // Nachrichten zusammenfügen.
         return messages.stream().map(ChatMessage::getContent).collect(Collectors.joining("\n"));
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        // Tabs zurücksetzen.
+        generatedTextsPanel.reset();
+        // Anbindung zur Schnittstelle.
         OpenAiService service = new OpenAiService(key, Duration.ofSeconds(60));
-
-        ChatCompletionRequest chatCompletionRequest = ChatCompletionRequest.builder()
-                .messages(messages)
-                .model("gpt-3.5-turbo-16k")
-                /*.temperature((Double) temperatureSpinner.getValue())
-                .topP((Double) topPSpinner.getValue())
-                .n((Integer) nSpinner.getValue())
-                .maxTokens((Integer) maxTokensSpinner.getValue())
-                .presencePenalty((Double) presencePenaltySpinner.getValue())
-                .frequencyPenalty((Double) frequencyPenaltySpinner.getValue())*/
-                .build();
-
-        final ChatCompletionResult[] chatCompletionResult = new ChatCompletionResult[1];
-
+        // Prozess erstellen.
         ExecutorService executor = Executors.newSingleThreadExecutor();
-
         Thread t = new Thread(() -> {
-            chatCompletionResult[0] = service.createChatCompletion(chatCompletionRequest);
+            // Textanfrage initialisieren und parametrisieren.
+            ChatCompletionRequest chatCompletionRequest = ChatCompletionRequest.builder()
+                    .messages(messages)
+                    .model(modelType.getName())
+                    .temperature((Double) temperatureSpinner.getValue())
+                    .topP((Double) topPSpinner.getValue())
+                    .n((Integer) nSpinner.getValue())
+                    .maxTokens((Integer) maxTokensSpinner.getValue())
+                    .presencePenalty((Double) presencePenaltySpinner.getValue())
+                    .frequencyPenalty((Double) frequencyPenaltySpinner.getValue())
+                    .build();
 
-            textResponseArea.setText(chatCompletionResult[0].getChoices().get(0).getMessage().getContent());
+            try {
+                // Cursor auf Warten setzen.
+                setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+                // Info in der Konsole ausgeben.
+                RuleBasedNumberFormat numberFormat = new RuleBasedNumberFormat(Locale.US, RuleBasedNumberFormat.SPELLOUT);
+                reference.getExplainerConsoleModel()
+                        .insertText(String.format("Generating %s textual explanation%s!",
+                                numberFormat.format(nSpinner.getValue()),
+                                (int) nSpinner.getValue() > 1 ? "s" : ""));
+                // Textanfrage an Endpunkt senden.
+                ChatCompletionResult chatCompletionResult = service.createChatCompletion(chatCompletionRequest);
+                // Anhand des Ergebnisses Tabs hinzufügen.
+                generatedTextsPanel.addTabsFromResult(chatCompletionResult);
+            } catch (Exception ex) {
+                // Fehler in Konsole ausgeben.
+                reference.getExplainerConsoleModel().insertText(ex.getMessage());
+            } finally {
+                // Cursor auf Standard zurücksetzen.
+                setCursor(Cursor.getDefaultCursor());
+            }
         });
+        // Prozess ausführen und beenden.
         executor.execute(t);
         executor.shutdown();
     }

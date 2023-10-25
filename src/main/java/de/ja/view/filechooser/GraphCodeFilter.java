@@ -3,6 +3,10 @@ package de.ja.view.filechooser;
 import javax.swing.filechooser.FileFilter;
 import java.io.File;
 
+/**
+ * Diese Klasse stellt einen Filter
+ * für Graph Code Dateien dar.
+ */
 public class GraphCodeFilter extends FileFilter {
 
     private final String ext, desc;

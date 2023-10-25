@@ -16,26 +16,30 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
 
+/**
+ * Diese Klasse stellt den Grundbereich
+ * ExplainerConsole dar.
+ */
 public class ExplainerConsole extends JPanel implements ITextInsertListener {
 
+    // Textbereich für Logs.
     private final RSyntaxTextArea rSyntaxTextArea;
 
     public ExplainerConsole(ExplainerConsoleModel model) {
         setLayout(new BorderLayout());
         setBorder(new TitledBorder("Konsole"));
         setMinimumSize(new Dimension(100, 100));
-
+        // Listener registrieren.
         if(model != null) {
             model.addListener(this);
         }
 
         rSyntaxTextArea = new RSyntaxTextArea();
         rSyntaxTextArea.setEOLMarkersVisible(false);
-        //rSyntaxTextArea.setBackground(new Color(69, 73, 74));
-        rSyntaxTextArea.setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_JAVA);
+        rSyntaxTextArea.setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_NONE);
         rSyntaxTextArea.setCodeFoldingEnabled(true);
         rSyntaxTextArea.setEditable(false);
-
+        // Theme setzen.
         Theme theme;
         try {
             theme = Theme.load(getClass().getClassLoader().getResourceAsStream("themes/dark.xml"));
@@ -45,11 +49,11 @@ public class ExplainerConsole extends JPanel implements ITextInsertListener {
         theme.apply(rSyntaxTextArea);
 
         RTextScrollPane rTextScrollPane = new RTextScrollPane(rSyntaxTextArea);
-
+        // Toolbar für Aktionen, wie dem Löschen der Logs.
         JToolBar toolBar = new JToolBar();
         toolBar.setFloatable(false);
         toolBar.setFocusable(false);
-
+        // Knopf fürs Löschen der Logs.
         URL url = getClass().getClassLoader().getResource("images/trash.png");
         ImageIcon trashIcon = new ImageIcon(Objects.requireNonNull(url));
         JButton clearButton = new JButton(trashIcon);
@@ -59,16 +63,15 @@ public class ExplainerConsole extends JPanel implements ITextInsertListener {
                 model.clear();
             }
         });
-
         toolBar.add(clearButton);
-
+        // Hinzufügen der Elemente.
         add(toolBar, BorderLayout.NORTH);
         add(rTextScrollPane, BorderLayout.CENTER);
     }
 
     /**
      * Einfügen von Text in die Konsole.
-     * @param text Der einufügende Text
+     * @param text Der einzufügende Text
      */
     @Override
     public void onInsert(String text) {

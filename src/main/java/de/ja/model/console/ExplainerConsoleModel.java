@@ -3,6 +3,10 @@ package de.ja.model.console;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Diese Klasse stellt das Datenmodell für
+ * die Konsole dar.
+ */
 public class ExplainerConsoleModel {
 
     /**
