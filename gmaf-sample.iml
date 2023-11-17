@@ -11,15 +11,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/jxlayer.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: commons-net:commons-net:3.6" level="project" />
@@ -258,13 +249,17 @@
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-ws-addr:3.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-ws-policy:3.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.neethi:neethi:3.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.theokanning.openai-gpt3-java:service:0.13.0" level="project" />
-    <orderEntry type="library" name="Maven: com.theokanning.openai-gpt3-java:client:0.13.0" level="project" />
-    <orderEntry type="library" name="Maven: com.theokanning.openai-gpt3-java:api:0.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.theokanning.openai-gpt3-java:service:0.17.0" level="project" />
+    <orderEntry type="library" name="Maven: com.theokanning.openai-gpt3-java:client:0.17.0" level="project" />
+    <orderEntry type="library" name="Maven: com.theokanning.openai-gpt3-java:api:0.17.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.retrofit2:adapter-rxjava2:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex.rxjava2:rxjava:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.retrofit2:converter-jackson:2.9.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.kjetland:mbknor-jackson-jsonschema_2.12:1.0.34" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.scala-lang:scala-library:2.12.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.github.classgraph:classgraph:4.8.21" level="project" />
     <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-all:1.6.5" level="project" />
     <orderEntry type="library" name="Maven: com.miglayout:miglayout:3.7.4" level="project" />
     <orderEntry type="library" name="Maven: com.fifesoft:rsyntaxtextarea:3.3.1" level="project" />
@@ -289,5 +284,15 @@
     <orderEntry type="library" name="Maven: com.google.guava:guava:32.1.2-jre" level="project" />
     <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:73.2" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.14.0" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-all-deps:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-core:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-win32:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-win64:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-linux32:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-linux64:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-osx64:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-osxm1:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-linux-arm32:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: ws.schild:jave-nativebin-linux-arm64:3.3.1" level="project" />
   </component>
 </module>
