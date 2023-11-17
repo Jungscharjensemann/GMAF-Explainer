@@ -2,6 +2,7 @@ package de.ja.controller;
 
 import de.ja.model.editor.GraphCodeListElement;
 import de.ja.view.editor.EditorGraphCode;
+import de.ja.view.editor.OriginalAssetPanel;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
@@ -39,11 +40,13 @@ public class GraphCodeListMouseAdapter extends MouseAdapter {
                 // Ausgewähltes Element in der Liste.
                 GraphCodeListElement element = dlm.getElementAt(selIdx);
                 // Dialog zum Umbenennen.
-                String rename = JOptionPane.showInputDialog(null,
-                        "New Name", "Rename GraphCode", JOptionPane.PLAIN_MESSAGE);
+                String rename = (String) JOptionPane.showInputDialog(null,
+                        "New Name", "Rename GraphCode", JOptionPane.PLAIN_MESSAGE, null, null, element.getFileName());
                 // Namen aktualisieren.
                 if(rename != null && !rename.isEmpty()) {
                     element.setFileName(rename.trim());
+                    OriginalAssetPanel originalAssetPanel = reference.getOriginalAssetPanel();
+                    originalAssetPanel.searchForSimilarFile(element.getFileName());
                     reference.getGraphCodeName().setText(rename);
                 }
             }
