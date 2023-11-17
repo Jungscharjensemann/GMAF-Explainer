@@ -48,6 +48,10 @@ public class ImagePanel extends JPanel implements ActionListener {
     // Größe der zu generierenden Bilder.
     private final JComboBox<String> sizeComboBox;
 
+    private final JComboBox<String> modelTypeComboBox;
+    private final JComboBox<String> qualityComboBox;
+    private final JComboBox<String> styleComboBox;
+
     // Textfeld für die generierte Prompt.
     private final JTextArea promptArea;
 
@@ -64,7 +68,7 @@ public class ImagePanel extends JPanel implements ActionListener {
         this.reference = reference;
         key = System.getenv("OpenAI-Key");
         // Layout definieren.
-        MigLayout imagePanelMigLayout = new MigLayout("" , "[fill, grow]", "10[10%][][fill,60%][fill,30%]");
+        MigLayout imagePanelMigLayout = new MigLayout("" , "[fill, grow]", "10[10%][][fill,60%][fill,30%]"); //1. 10%
         setLayout(imagePanelMigLayout);
         // Textfeld für die Prompt initialisieren und konfigurieren.
         promptArea = new JTextArea();
@@ -109,10 +113,42 @@ public class ImagePanel extends JPanel implements ActionListener {
         sizeComboBox = new JComboBox<>();
         sizeComboBox.addItem("256x256");
         sizeComboBox.addItem("512x512");
-        //sizeComboBox.addItem("1024x1024");
+        sizeComboBox.addItem("1024x1024");
+        sizeComboBox.addItem("1024x1792");
+        sizeComboBox.addItem("1792x1024");
 
+        JLabel modelTypeLabel = new JLabel("Model Type:");
+        modelTypeLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+        modelTypeLabel.setHorizontalAlignment(SwingConstants.CENTER);
+
+        modelTypeComboBox = new JComboBox<>();
+        modelTypeComboBox.addItem("dall-e-2");
+        modelTypeComboBox.addItem("dall-e-3");
+
+        JLabel qualityLabel = new JLabel("Quality:");
+        qualityLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+        qualityLabel.setHorizontalAlignment(SwingConstants.CENTER);
+
+        qualityComboBox = new JComboBox<>();
+        qualityComboBox.addItem("standard");
+        qualityComboBox.addItem("hd");
+
+        JLabel styleLabel = new JLabel("Style:");
+        styleLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+        styleLabel.setHorizontalAlignment(SwingConstants.CENTER);
+
+        styleComboBox = new JComboBox<>();
+        styleComboBox.addItem("vivid");
+        styleComboBox.addItem("natural");
+
+        advancedOptions.add(modelTypeLabel);
+        advancedOptions.add(modelTypeComboBox);
         advancedOptions.add(nLabel);
         advancedOptions.add(nSpinner);
+        advancedOptions.add(qualityLabel);
+        advancedOptions.add(qualityComboBox);
+        advancedOptions.add(styleLabel);
+        advancedOptions.add(styleComboBox);
         advancedOptions.add(sizeLabel);
         advancedOptions.add(sizeComboBox);
 
@@ -148,7 +184,7 @@ public class ImagePanel extends JPanel implements ActionListener {
      */
     private String setUpPrompt(GraphCode graphCode) {
         // Alle Paare die über eine 1-Beziehung verfügen.
-        String s = graphCode.getFormattedTerms2();
+        String s = graphCode.getFormattedTerms();
         // Textnachrichten für die Prompt.
         messages = new ArrayList<>();
         messages.add(new ChatMessage(ChatMessageRole.SYSTEM.value(),
@@ -209,30 +245,60 @@ public class ImagePanel extends JPanel implements ActionListener {
                 // Ergebnis der Anfrage.
                 String chatResponse = chatCompletionResult.getChoices().get(0).getMessage().getContent();
                 // Bildanfrage initialisieren und parametrisieren.
-                CreateImageRequest imageRequest = CreateImageRequest.builder().
-                        // Limit (Zeichenlänge): 1000
-                        prompt(chatResponse)
+
+                CreateImageRequest imageRequest = CreateImageRequest.builder()
+                        .prompt(chatResponse)
                         .n((Integer) nSpinner.getValue())
+                        .model((String) modelTypeComboBox.getSelectedItem())
+                        .quality((String) qualityComboBox.getSelectedItem())
+                        .style((String) styleComboBox.getSelectedItem())
                         .size(String.valueOf(sizeComboBox.getSelectedItem()))
                         .responseFormat("url")
                         .build();
+
                 // Bildanfrage an Endpunkt senden.
                 ImageResult imageResult = service.createImage(imageRequest);
                 // Alle Ergebnisse verarbeiten und anzeigen.
                 for(int i = 0; i < imageResult.getData().size(); i++) {
                     URL imageUrl = new URL(imageResult.getData().get(i).getUrl());
                     ImageIcon icon = new ImageIcon(imageUrl);
-                    // Label zum Darstellen eines generierten Bildes.
-                    JLabel imageLabel = new JLabel();
-                    imageLabel.setIcon(icon);
-                    imageLabel.setHorizontalAlignment(SwingConstants.CENTER);
-                    imageLabel.setHorizontalTextPosition(SwingConstants.CENTER);
-                    // Tab mit Bild hinzufügen.
-                    imagesTabbedPane.addTab(String.format("Image-%s", i + 1), imageLabel);
+                    String imageName = String.format("Image-%s", i + 1);
+                    if(icon.getIconWidth() > 256 && icon.getIconHeight() > 256) {
+                        JButton external = new JButton("Open Image in external Frame...");
+                        external.addActionListener(e1 -> {
+                            JFrame externalFrame = new JFrame();
+                            externalFrame.setTitle(imageName);
+                            externalFrame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+                            externalFrame.setLocationRelativeTo(null);
+
+                            JLabel imageLabel = new JLabel();
+                            imageLabel.setIcon(icon);
+                            imageLabel.setHorizontalAlignment(SwingConstants.CENTER);
+                            imageLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+
+                            JPanel panel = new JPanel();
+                            panel.add(imageLabel);
+
+                            externalFrame.add(new JScrollPane(panel, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS));
+                            externalFrame.setSize(512, 512);
+                            externalFrame.setVisible(true);
+
+                            //JOptionPane.showMessageDialog(null, new JScrollPane(imageLabel), imageName, JOptionPane.PLAIN_MESSAGE, null);
+                        });
+                        imagesTabbedPane.addTab(String.format("Image-%s", i + 1), external);
+                    } else if(icon.getIconWidth() == 256 && icon.getIconHeight() == 256) {
+                        // Label zum Darstellen eines generierten Bildes.
+                        JLabel imageLabel = new JLabel();
+                        imageLabel.setIcon(icon);
+                        imageLabel.setHorizontalAlignment(SwingConstants.CENTER);
+                        imageLabel.setHorizontalTextPosition(SwingConstants.CENTER);
+                        // Tab mit Bild hinzufügen.
+                        imagesTabbedPane.addTab(imageName, imageLabel);
+                    }
                     // Bild in Ordner speichern.
                     String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HHmmss").format(new Date());
                     String nameFormat = FilenameUtils.getName(imageUrl.getPath());
-                    String fileName = String.format("explanations/%s-%s", timeStamp, nameFormat);
+                    String fileName = String.format("explanations/image/%s-%s", timeStamp, nameFormat);
                     File saveImg = new File(fileName);
                     ImageIO.write(ImageIO.read(imageUrl), "jpg", saveImg);
                 }
