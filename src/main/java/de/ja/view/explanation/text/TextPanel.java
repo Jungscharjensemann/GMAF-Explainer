@@ -1,6 +1,7 @@
 package de.ja.view.explanation.text;
 
 import com.ibm.icu.text.RuleBasedNumberFormat;
+import com.ibm.icu.text.SimpleDateFormat;
 import com.knuddels.jtokkit.api.ModelType;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
@@ -11,7 +12,6 @@ import de.ja.view.ExplainerFrame;
 import de.ja.view.explanation.text.textinfo.GeneratedTextsPanel;
 import de.swa.gc.GraphCode;
 import net.miginfocom.swing.MigLayout;
-import org.apache.commons.lang3.StringUtils;
 import org.jdesktop.swingx.JXTaskPane;
 
 import javax.swing.*;
@@ -19,10 +19,11 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
+import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
@@ -44,14 +45,13 @@ public class TextPanel extends JPanel implements ActionListener {
     private final JSpinner presencePenaltySpinner;
     private final JSpinner frequencyPenaltySpinner;
 
+    private final JComboBox<String> modelTypeComboBox;
+
     // Nachrichten, die die Prompt darstellen.
     private List<ChatMessage> messages = new ArrayList<>();
 
     // Panel für alle generierten Texte.
     private final GeneratedTextsPanel generatedTextsPanel;
-
-    // Modell der generativen KI.
-    private final ModelType modelType = ModelType.GPT_4;
 
     // Referenz.
     private final ExplainerFrame reference;
@@ -60,7 +60,7 @@ public class TextPanel extends JPanel implements ActionListener {
         this.reference = reference;
         key = System.getenv("OpenAI-Key");
         // Layout definieren.
-        MigLayout imagePanelMigLayout = new MigLayout("" , "[fill, grow]", "10[12.5%][][fill,57.5%][fill,30%]");
+        MigLayout imagePanelMigLayout = new MigLayout("" , "[fill, grow]", "10[12.5%][][fill,57.5%][fill,30%]"); //1. 12.5%
         setLayout(imagePanelMigLayout);
         // Textfeld für die Prompt initialisieren und konfigurieren.
         promptArea = new JTextArea();
@@ -142,9 +142,9 @@ public class TextPanel extends JPanel implements ActionListener {
         modelTypeLabel.setHorizontalTextPosition(SwingConstants.CENTER);
         modelTypeLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        JComboBox<String> modelTypeComboBox = new JComboBox<>();
+        modelTypeComboBox = new JComboBox<>();
         for(ModelType type : ModelType.values()) {
-            modelTypeComboBox.addItem(StringUtils.capitalize(type.getName()));
+            modelTypeComboBox.addItem(type.getName());
         }
 
         advancedOptions.add(temperatureLabel);
@@ -167,7 +167,8 @@ public class TextPanel extends JPanel implements ActionListener {
         generateChatCompletions.addActionListener(this);
         add(generateChatCompletions, "cell 0 1, width ::190px, aligny top");
 
-        generatedTextsPanel = new GeneratedTextsPanel(modelType);
+        // Modell der generativen KI.
+        generatedTextsPanel = new GeneratedTextsPanel();
 
         add(generatedTextsPanel, "cell 0 2, growx, aligny top");
     }
@@ -193,7 +194,7 @@ public class TextPanel extends JPanel implements ActionListener {
      * @return Generierte Prompt.
      */
     private String setUpPrompt(GraphCode graphCode) {
-        String s = graphCode.getFormattedTerms2();
+        String s = graphCode.getFormattedTerms();
 
         messages = new ArrayList<>();
         messages.add(new ChatMessage(ChatMessageRole.SYSTEM.value(),
@@ -236,7 +237,7 @@ public class TextPanel extends JPanel implements ActionListener {
             // Textanfrage initialisieren und parametrisieren.
             ChatCompletionRequest chatCompletionRequest = ChatCompletionRequest.builder()
                     .messages(messages)
-                    .model(modelType.getName())
+                    .model((String) modelTypeComboBox.getSelectedItem())
                     .temperature((Double) temperatureSpinner.getValue())
                     .topP((Double) topPSpinner.getValue())
                     .n((Integer) nSpinner.getValue())
@@ -257,7 +258,21 @@ public class TextPanel extends JPanel implements ActionListener {
                 // Textanfrage an Endpunkt senden.
                 ChatCompletionResult chatCompletionResult = service.createChatCompletion(chatCompletionRequest);
                 // Anhand des Ergebnisses Tabs hinzufügen.
-                generatedTextsPanel.addTabsFromResult(chatCompletionResult);
+                Optional<ModelType> model = ModelType.fromName((String) modelTypeComboBox.getSelectedItem());
+                ModelType modelType = ModelType.GPT_4;
+                if(model.isPresent()) {
+                    modelType = model.get();
+                }
+                generatedTextsPanel.addTabsFromResult(chatCompletionResult, modelType);
+                // Texte speichern.
+                for(int i = 0; i < chatCompletionResult.getChoices().size(); i++) {
+                    String content = chatCompletionResult.getChoices().get(i).getMessage().getContent();
+                    String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HHmmss").format(new Date());
+                    String fileName = String.format("explanations/text/%s-text-%s.txt", timeStamp, i + 1);
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
+                    writer.write(content);
+                    writer.close();
+                }
             } catch (Exception ex) {
                 // Fehler in Konsole ausgeben.
                 reference.getExplainerConsoleModel().insertText(ex.getMessage());
