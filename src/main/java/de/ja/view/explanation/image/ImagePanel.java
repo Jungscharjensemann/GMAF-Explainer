@@ -23,6 +23,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
@@ -296,6 +298,7 @@ public class ImagePanel extends JPanel implements ActionListener {
                         imagesTabbedPane.addTab(imageName, imageLabel);
                     }
                     // Bild in Ordner speichern.
+                    Files.createDirectories(Paths.get(System.getProperty("user.dir") + "/explanations/image/"));
                     String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HHmmss").format(new Date());
                     String nameFormat = FilenameUtils.getName(imageUrl.getPath());
                     String fileName = String.format("explanations/image/%s-%s", timeStamp, nameFormat);

@@ -21,6 +21,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.List;
 import java.util.*;
@@ -266,6 +268,7 @@ public class TextPanel extends JPanel implements ActionListener {
                 generatedTextsPanel.addTabsFromResult(chatCompletionResult, modelType);
                 // Texte speichern.
                 for(int i = 0; i < chatCompletionResult.getChoices().size(); i++) {
+                    Files.createDirectories(Paths.get(System.getProperty("user.dir") + "/explanations/text/"));
                     String content = chatCompletionResult.getChoices().get(i).getMessage().getContent();
                     String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HHmmss").format(new Date());
                     String fileName = String.format("explanations/text/%s-text-%s.txt", timeStamp, i + 1);

@@ -18,6 +18,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Date;
 import java.util.Objects;
 
@@ -70,6 +71,7 @@ public class AudioPlayerPanel extends JPanel implements ActionListener,  LineLis
     public void setSpeechResult(SpeechResult speechResult) throws Exception {
 
         // Audio in Ordner speichern.
+        Files.createDirectories(Paths.get(System.getProperty("user.dir") + "/explanations/audio/"));
         String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HHmmss").format(new Date());
         String fileName = String.format("explanations/audio/%s-audio", timeStamp);
         String path = String.format("%s.%s", fileName, speechResult.getAudioType().subtype());
