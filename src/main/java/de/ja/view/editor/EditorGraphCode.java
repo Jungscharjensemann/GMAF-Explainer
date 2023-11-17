@@ -5,6 +5,7 @@ import de.ja.handler.jlist.ListItemTransferHandler;
 import de.ja.model.editor.GraphCodeListElement;
 import de.ja.view.ExplainerFrame;
 import de.ja.view.editor.renderer.GraphCodeListRenderer;
+import de.ja.view.tabbedpane.DnDTabbedPane;
 import de.ja.view.table.GraphCodeTable;
 
 import javax.swing.*;
@@ -95,7 +96,7 @@ public class EditorGraphCode extends JPanel {
         topRight.setLayout(new BorderLayout());
         // Panel für tabellarische und originale Darstellung
         // eines ausgewählten Graph Codes.
-        JTabbedPane tabbedPane = new JTabbedPane();
+        DnDTabbedPane tabbedPane = new DnDTabbedPane();
 
         graphCodeName = new JLabel();
         graphCodeName.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -107,8 +108,8 @@ public class EditorGraphCode extends JPanel {
         // Darstellung der Original-Datei eines ausgewählten Graph Codes.
         originalAssetPanel = new OriginalAssetPanel();
         // Tabs hinzufügen.
-        tabbedPane.addTab("GraphCode - Table", graphCodeTable);
         tabbedPane.addTab("Original Asset", originalAssetPanel);
+        tabbedPane.addTab("GraphCode - Table", graphCodeTable);
 
         rightPart.add(tabbedPane, BorderLayout.CENTER);
         rightPart.add(topRight, BorderLayout.NORTH);
