@@ -1,38 +1,18 @@
 package de.swa.ui;
 
-import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Objects;
-import java.util.Vector;
-
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.JToggleButton;
-import javax.swing.JToolBar;
-
 import de.ja.view.ExplainerFrame;
-import de.swa.ui.command.CommandHistory;
-import de.swa.ui.command.ExportCommand;
-import de.swa.ui.command.GMAFConfCommand;
-import de.swa.ui.command.OptimizeCommand;
-import de.swa.ui.command.PluginConfCommand;
-import de.swa.ui.command.ProcessCommand;
-import de.swa.ui.command.QueryByExampleCommand;
-import de.swa.ui.command.QueryRefinementCommand;
-import de.swa.ui.command.ReloadCommand;
+import de.swa.ui.command.*;
 import de.swa.ui.panels.AssetDetailPanel;
 import de.swa.ui.panels.AssetListPanel;
 import de.swa.ui.panels.LogPanel;
 import de.swa.ui.panels.QueryPanel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Objects;
+import java.util.Vector;
 
 /** main window of the GMAF UI **/
 public class GMAF_UI extends JFrame implements ActionListener {
@@ -195,6 +175,6 @@ public class GMAF_UI extends JFrame implements ActionListener {
 		else if (s.equals("RF")) ch.addCommand(new QueryRefinementCommand());
 		else if (s.equals("Exit")) System.exit(0);
 		else if(s.equals("Explain")) new ExplainerFrame();
-		
+
 	}
 }
