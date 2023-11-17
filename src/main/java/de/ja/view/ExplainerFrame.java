@@ -31,7 +31,6 @@ public class ExplainerFrame extends JFrame {
 
     public ExplainerFrame() {
         initFrame();
-        configureFrame();
         initComponents();
     }
 
@@ -52,10 +51,6 @@ public class ExplainerFrame extends JFrame {
         setVisible(true);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-    }
-
-    private void configureFrame() {
-
     }
 
     private void initComponents() {
