@@ -3,3 +3,6 @@
 /explanations/
 /lib/GMAF-jar-with-dependencies.jar
 /lib/GMAF.uml
+/src/main/java/de/ja/view/gpt4vision/
+/src/main/java/de/ja/openai/
+/mbrola/
