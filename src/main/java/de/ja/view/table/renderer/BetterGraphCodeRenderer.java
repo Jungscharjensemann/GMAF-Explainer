@@ -29,6 +29,7 @@ public class BetterGraphCodeRenderer extends DefaultTableCellRenderer {
     public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
         JLabel l = (JLabel) super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
         l.setBorder(new LineBorder(Color.black, 1));
+        l.setToolTipText((String) value);
         if(row == column) {
             l.setBackground(Color.lightGray);
             l.setForeground(Color.black);
