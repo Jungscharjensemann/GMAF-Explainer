@@ -19,6 +19,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Diese Klasse stellt ein Panel für
@@ -45,13 +47,12 @@ public class GeneratedTextsPanel extends JPanel implements ActionListener, Chang
     private final Highlighter.HighlightPainter[] highlightPainters;
 
     // Textmodell generativer KI.
-    private final ModelType modelType;
+    private ModelType modelType;
 
-    public GeneratedTextsPanel(ModelType modelType) {
+    public GeneratedTextsPanel() {
         setLayout(new BorderLayout());
         setBorder(new TitledBorder("Generated Text(s)"));
 
-        this.modelType = modelType;
         // Tokens.
         tokensMap = new HashMap<>();
         // Farben.
@@ -92,14 +93,16 @@ public class GeneratedTextsPanel extends JPanel implements ActionListener, Chang
         add(textsTabbedPane, BorderLayout.CENTER);
     }
 
-    public void addTabsFromResult(ChatCompletionResult chatCompletionResult) {
+    public void addTabsFromResult(ChatCompletionResult chatCompletionResult, ModelType type) {
         if(textsTabbedPane != null) {
             for(int i = 0; i < chatCompletionResult.getChoices().size(); i++) {
                 // Generierter Text.
                 String content = chatCompletionResult.getChoices().get(i).getMessage().getContent();
                 // Tokens bestimmen.
+                this.modelType = type;
                 EncodingRegistry registry = Encodings.newDefaultEncodingRegistry();
-                Encoding enc = registry.getEncodingForModel(modelType);
+                Encoding enc = registry.getEncodingForModel(type);
+                System.out.println("Using encoding for model: " + modelType.name());
                 List<Integer> encoded = enc.encode(content);
                 // Tokens in Relation zum Index des Tabs speichern.
                 if(tokensMap != null) {
@@ -169,40 +172,34 @@ public class GeneratedTextsPanel extends JPanel implements ActionListener, Chang
                     if(comp instanceof JTextArea) {
                         JTextArea ta = (JTextArea) comp;
                         String text = ta.getText();
-                        String content = String.valueOf(text);
+                        final String[] content = {String.valueOf(text)};
                         // Wenn Tokens hervorheben ausgewählt ist.
                         if(highlightTokens.isSelected()) {
                             // Anfangsposition.
-                            int pos = 0;
-                            int contentLen = content.length();
+                            final int[] pos = {0};
                             if(tokensMap != null && !tokensMap.isEmpty()) {
                                 List<Integer> tokens = tokensMap.get(i);
                                 if(tokens != null && !tokens.isEmpty()) {
-                                    // Index für Farbe eines Tokens.
-                                    int tokC = 0;
-                                    for (Integer token : tokens) {
-                                        // Token dekodieren.
-                                        String decoded = enc.decode(List.of(token));
-                                        if (content.length() >= decoded.length()) {
-                                            // Prüfen, ob Anfang nächstem Token entspricht.
-                                            String sub = content.substring(0, decoded.length());
-                                            if (content.startsWith(sub)) {
-                                                try {
-                                                    // Token hervorheben.
-                                                    ta.getHighlighter().addHighlight(pos, pos + sub.length(), highlightPainters[tokC]);
-                                                    pos += sub.length();
-                                                    content = content.substring(decoded.length());
-                                                } catch (BadLocationException ex) {
-                                                    throw new RuntimeException(ex);
+                                    ExecutorService service = Executors.newSingleThreadExecutor();
+                                    Thread highlight = new Thread(() -> {
+                                        // Index für Farbe eines Tokens.
+                                        for(int tok = 0, tokC = 0; tok < tokens.size(); tok++, tokC = ++tokC % 5) {
+                                            String decoded = enc.decode(List.of(tokens.get(tok)));
+                                            if(content[0].length() >= decoded.length()) {
+                                                String sub = content[0].substring(0, decoded.length());
+                                                if(content[0].startsWith(sub)) {
+                                                    try {
+                                                        ta.getHighlighter().addHighlight(pos[0], pos[0] += sub.length(), highlightPainters[tokC]);
+                                                    } catch (BadLocationException ex) {
+                                                        throw new RuntimeException(ex);
+                                                    }
+                                                    content[0] = content[0].substring(decoded.length());
                                                 }
                                             }
                                         }
-                                        // Zyklisch zurückspringen.
-                                        tokC = (tokC + 1) % 5;
-                                    }
-                                    if(pos == contentLen) {
-                                        System.out.println("Successfully reached end of text!");
-                                    }
+                                    });
+                                    service.execute(highlight);
+                                    service.shutdown();
                                 }
                             }
                             ta.setForeground(Color.BLACK);
