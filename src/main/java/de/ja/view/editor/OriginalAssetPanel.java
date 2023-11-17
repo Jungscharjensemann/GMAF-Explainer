@@ -97,7 +97,7 @@ public class OriginalAssetPanel extends JPanel {
                         // Keine passende Datei in Collection gefunden.
                         placeHolder.setHorizontalAlignment(SwingConstants.CENTER);
                         placeHolder.setVerticalAlignment(SwingConstants.CENTER);
-                        placeHolder.setText("No matching file found in collection");
+                        placeHolder.setText("No matching file found in collection!");
                         add(placeHolder, BorderLayout.CENTER);
                     }
                 }
@@ -108,7 +108,7 @@ public class OriginalAssetPanel extends JPanel {
                 // Keine passende Datei in Collection gefunden.
                 placeHolder.setHorizontalAlignment(SwingConstants.CENTER);
                 placeHolder.setVerticalAlignment(SwingConstants.CENTER);
-                placeHolder.setText("No matching file found in collection");
+                placeHolder.setText("No matching file found in collection!");
                 add(placeHolder, BorderLayout.CENTER);
             }
         } else {
@@ -118,7 +118,7 @@ public class OriginalAssetPanel extends JPanel {
             // Keine Graph Code ausgewählt.
             placeHolder.setHorizontalAlignment(SwingConstants.CENTER);
             placeHolder.setVerticalAlignment(SwingConstants.CENTER);
-            placeHolder.setText("No GraphCode selected");
+            placeHolder.setText("No GraphCode selected!");
             add(placeHolder, BorderLayout.CENTER);
         }
     }
