@@ -3,6 +3,7 @@ package de.ja.view.explanation.text;
 import com.ibm.icu.text.RuleBasedNumberFormat;
 import com.ibm.icu.text.SimpleDateFormat;
 import com.knuddels.jtokkit.api.ModelType;
+import com.theokanning.openai.OpenAiHttpException;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
 import com.theokanning.openai.completion.chat.ChatMessage;
@@ -233,6 +234,10 @@ public class TextPanel extends JPanel implements ActionListener {
         generatedTextsPanel.reset();
         // Anbindung zur Schnittstelle.
         OpenAiService service = new OpenAiService(key, Duration.ofSeconds(60));
+        if(key.isEmpty()) {
+            reference.getExplainerConsoleModel().insertText("OpenAI-Key is missing, abort process. Must be set in launch-config: OpenAI-Key=...");
+            return;
+        }
         // Prozess erstellen.
         ExecutorService executor = Executors.newSingleThreadExecutor();
         Thread t = new Thread(() -> {
@@ -276,7 +281,15 @@ public class TextPanel extends JPanel implements ActionListener {
                     writer.write(content);
                     writer.close();
                 }
+            } catch(OpenAiHttpException openAiHttpException) {
+                if(openAiHttpException.statusCode == 401) {
+                    JOptionPane.showMessageDialog(null,
+                            "You provided an invalid API-Key!",
+                            "Authentication Error", JOptionPane.ERROR_MESSAGE);
+                    reference.getExplainerConsoleModel().insertText("You provided an invalid API-Key!");
+                }
             } catch (Exception ex) {
+                ex.printStackTrace();
                 // Fehler in Konsole ausgeben.
                 reference.getExplainerConsoleModel().insertText(ex.getMessage());
             } finally {

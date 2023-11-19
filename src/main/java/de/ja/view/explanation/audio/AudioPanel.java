@@ -1,5 +1,6 @@
 package de.ja.view.explanation.audio;
 
+import com.theokanning.openai.OpenAiHttpException;
 import com.theokanning.openai.audio.CreateSpeechRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
@@ -204,6 +205,10 @@ public class AudioPanel extends JPanel implements ActionListener {
         audioPlayerPanel.resetSpeechResult();
         // Anbindung zur Schnittstelle.
         OpenAiService service = new OpenAiService(key, Duration.ofSeconds(60));
+        if(key.isEmpty()) {
+            reference.getExplainerConsoleModel().insertText("OpenAI-Key is missing, abort process. Must be set in launch-config: OpenAI-Key=...");
+            return;
+        }
         // Prozess erstellen.
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         Thread t = new Thread(() -> {
@@ -238,6 +243,13 @@ public class AudioPanel extends JPanel implements ActionListener {
                         .bytes(speechResponseBody.bytes())
                         .build();
                 audioPlayerPanel.setSpeechResult(speechResult);
+            } catch(OpenAiHttpException openAiHttpException) {
+                if(openAiHttpException.statusCode == 401) {
+                    JOptionPane.showMessageDialog(null,
+                            "You provided an invalid API-Key!",
+                            "Authentication Error", JOptionPane.ERROR_MESSAGE);
+                    reference.getExplainerConsoleModel().insertText("You provided an invalid API-Key!");
+                }
             } catch (Exception ex) {
                 ex.printStackTrace();
                 // Fehler in Konsole ausgeben.
