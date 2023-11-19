@@ -22,6 +22,11 @@ import java.nio.file.Paths;
 import java.util.Date;
 import java.util.Objects;
 
+/**
+ * Diese Klasse stellt die Benutzungsschnittstelle
+ * zum Abspielen einer auditiven Erklärung in Form einer
+ * Audiodatei dar.
+ */
 public class AudioPlayerPanel extends JPanel implements ActionListener,  LineListener {
 
     private final JLabel timePlayedLabel;
@@ -68,6 +73,12 @@ public class AudioPlayerPanel extends JPanel implements ActionListener,  LineLis
         add(lengthLabel);
     }
 
+    /**
+     * Generiert aus dem Ergebnis der Anfrage
+     * einen abspielbaren Audioclip.
+     * @param speechResult Ergebnis der Anfrage an Endpunkt Audio.
+     * @throws Exception Fehler.
+     */
     public void setSpeechResult(SpeechResult speechResult) throws Exception {
 
         // Audio in Ordner speichern.
@@ -105,7 +116,7 @@ public class AudioPlayerPanel extends JPanel implements ActionListener,  LineLis
             audioExplanation.getAudioClip().addLineListener(this);
             lengthLabel.setText(audioExplanation.getClipLengthString());
         } catch (IOException | UnsupportedAudioFileException ex) {
-            throw new RuntimeException(ex);
+            ex.printStackTrace();
         }
     }
 
@@ -117,6 +128,7 @@ public class AudioPlayerPanel extends JPanel implements ActionListener,  LineLis
     @Override
     public void actionPerformed(ActionEvent e) {
         if(audioExplanation != null) {
+            // Neuer Playback.
             PlayBackThread playBackThread = new PlayBackThread(timePlayedLabel, playProgress);
             playBackThread.setAudioClip(audioExplanation.getAudioClip());
             if(audioExplanation.isPlayBackActive()) {
