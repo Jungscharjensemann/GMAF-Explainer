@@ -174,7 +174,15 @@ public class GMAF_UI extends JFrame implements ActionListener {
 		}
 		else if (s.equals("RF")) ch.addCommand(new QueryRefinementCommand());
 		else if (s.equals("Exit")) System.exit(0);
-		else if(s.equals("Explain")) new ExplainerFrame();
+		else if(s.equals("Explain")) {
+			String key = System.getenv("OpenAI-Key");
+			if(!key.isEmpty()) {
+				System.out.println("OpenAI-Key present, proceed...");
+				new ExplainerFrame();
+			} else {
+				System.err.println("OpenAI-Key is missing!");
+			}
+		}
 
 	}
 }
