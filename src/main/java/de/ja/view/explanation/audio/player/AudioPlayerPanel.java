@@ -120,6 +120,9 @@ public class AudioPlayerPanel extends JPanel implements ActionListener,  LineLis
         }
     }
 
+    /**
+     * Setze Audioergebnis zurück.
+     */
     public void resetSpeechResult() {
         this.audioFile = null;
         playButton.setEnabled(false);
