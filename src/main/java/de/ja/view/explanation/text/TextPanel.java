@@ -49,6 +49,7 @@ public class TextPanel extends JPanel implements ActionListener {
     private final JSpinner frequencyPenaltySpinner;
 
     private final JComboBox<String> modelTypeComboBox;
+    private final JButton generateChatCompletions;
 
     // Nachrichten, die die Prompt darstellen.
     private List<ChatMessage> messages = new ArrayList<>();
@@ -166,7 +167,7 @@ public class TextPanel extends JPanel implements ActionListener {
         advancedOptions.add(modelTypeComboBox, "width ::84px");
 
         // Knopf zum Generieren von Texten.
-        JButton generateChatCompletions = new JButton("Generate Chat-Completion(s)");
+        generateChatCompletions = new JButton("Generate Chat-Completion(s)");
         generateChatCompletions.addActionListener(this);
         add(generateChatCompletions, "cell 0 1, width ::190px, aligny top");
 
@@ -256,6 +257,8 @@ public class TextPanel extends JPanel implements ActionListener {
             try {
                 // Cursor auf Warten setzen.
                 setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+                // Knopf deaktivieren.
+                generateChatCompletions.setEnabled(false);
                 // Info in der Konsole ausgeben.
                 RuleBasedNumberFormat numberFormat = new RuleBasedNumberFormat(Locale.US, RuleBasedNumberFormat.SPELLOUT);
                 reference.getExplainerConsoleModel()
@@ -295,6 +298,8 @@ public class TextPanel extends JPanel implements ActionListener {
             } finally {
                 // Cursor auf Standard zurücksetzen.
                 setCursor(Cursor.getDefaultCursor());
+                // Knopf reaktivieren.
+                generateChatCompletions.setEnabled(true);
             }
         });
         // Prozess ausführen und beenden.

@@ -48,6 +48,7 @@ public class AudioPanel extends JPanel implements ActionListener {
 
     // Textfeld für die generierte Prompt.
     private final JTextArea promptArea;
+    private final JButton generateAudioButton;
 
     // Nachrichten, die die Prompt darstellen.
     private List<ChatMessage> messages = new ArrayList<>();
@@ -139,9 +140,9 @@ public class AudioPanel extends JPanel implements ActionListener {
         advancedOptions.add(speedSpinner);
 
         // Knopf zum Generieren von Bildern.
-        JButton generateImageButton = new JButton("Generate Audio");
-        generateImageButton.addActionListener(this);
-        add(generateImageButton, "cell 0 1, width ::150px, aligny top");
+        generateAudioButton = new JButton("Generate Audio");
+        generateAudioButton.addActionListener(this);
+        add(generateAudioButton, "cell 0 1, width ::150px, aligny top");
 
         audioPlayerPanel = new AudioPlayerPanel();
         add(audioPlayerPanel,"cell 0 2, growx, aligny top");
@@ -222,6 +223,8 @@ public class AudioPanel extends JPanel implements ActionListener {
             try {
                 // Cursor auf Warten setzen.
                 setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+                // Knopf deaktivieren.
+                generateAudioButton.setEnabled(false);
                 // Info in der Konsole ausgeben.
                 reference.getExplainerConsoleModel()
                         .insertText("Generating an auditive explanation!");
@@ -257,6 +260,8 @@ public class AudioPanel extends JPanel implements ActionListener {
             } finally {
                 // Cursor auf Standard zurücksetzen.
                 setCursor(Cursor.getDefaultCursor());
+                // Knopf reaktivieren.
+                generateAudioButton.setEnabled(true);
             }
         });
         // Prozess ausführen und beenden.

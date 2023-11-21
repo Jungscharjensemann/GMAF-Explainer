@@ -61,6 +61,8 @@ public class ImagePanel extends JPanel implements ActionListener {
     // TabbedPane für alle generierten Bilder.
     private final JTabbedPane imagesTabbedPane;
 
+    private final JButton generateImageButton;
+
     // Nachrichten, die die Prompt darstellen.
     private List<ChatMessage> messages = new ArrayList<>();
 
@@ -156,7 +158,7 @@ public class ImagePanel extends JPanel implements ActionListener {
         advancedOptions.add(sizeComboBox);
 
         // Knopf zum Generieren von Bildern.
-        JButton generateImageButton = new JButton("Generate Image(s)");
+        generateImageButton = new JButton("Generate Image(s)");
         generateImageButton.addActionListener(this);
         add(generateImageButton, "cell 0 1, width ::150px, aligny top");
 
@@ -241,6 +243,8 @@ public class ImagePanel extends JPanel implements ActionListener {
             try {
                 // Cursor auf Warten setzen.
                 setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+                // Knopf deaktivieren.
+                generateImageButton.setEnabled(false);
                 // Info in der Konsole ausgeben.
                 RuleBasedNumberFormat numberFormat = new RuleBasedNumberFormat(Locale.US, RuleBasedNumberFormat.SPELLOUT);
                 reference.getExplainerConsoleModel()
@@ -324,6 +328,8 @@ public class ImagePanel extends JPanel implements ActionListener {
             } finally {
                 // Cursor auf Standard zurücksetzen.
                 setCursor(Cursor.getDefaultCursor());
+                // Knopf reaktivieren.
+                generateImageButton.setEnabled(true);
             }
         });
         // Prozess ausführen und beenden.
