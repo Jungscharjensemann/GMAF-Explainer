@@ -11,9 +11,17 @@ import java.awt.*;
  */
 public class GraphCodeListRenderer extends JLabel implements ListCellRenderer<GraphCodeListElement> {
 
+    private final ImageIcon scaled;
+    private final Dimension prefSize;
+
     public GraphCodeListRenderer() {
         setOpaque(true);
         setHorizontalAlignment(CENTER);
+
+        ImageIcon icon = new ImageIcon("resources/document_tag.png");
+        scaled = new ImageIcon(icon.getImage().getScaledInstance(24, 24, Image.SCALE_SMOOTH));
+
+        prefSize = new Dimension(50, 50);
     }
 
     @Override
@@ -21,9 +29,8 @@ public class GraphCodeListRenderer extends JLabel implements ListCellRenderer<Gr
                                                   GraphCodeListElement graphCodeListElement,
                                                   int index, boolean isSelected,
                                                   boolean cellHasFocus) {
-        ImageIcon icon = new ImageIcon("resources/document_tag.png");
+        setIcon(scaled);
         setBorder(BorderFactory.createEmptyBorder());
-        setIcon(new ImageIcon(icon.getImage().getScaledInstance(24, 24, Image.SCALE_SMOOTH)));
         setText(graphCodeListElement.getFileName());
         setHorizontalTextPosition(CENTER);
         setVerticalTextPosition(BOTTOM);
@@ -36,7 +43,7 @@ public class GraphCodeListRenderer extends JLabel implements ListCellRenderer<Gr
             setForeground(list.getForeground());
         }
 
-        setPreferredSize(new Dimension(50, 50));
+        setPreferredSize(prefSize);
 
         return this;
     }
